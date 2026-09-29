@@ -18,143 +18,253 @@ ask: where is the money, is it on schedule, and does spending match budget.
 | `finance_disbursements_raw` | 1,648 | Raw, all-STRING |
 | `county_reference` | 47 | Clean lookup (Kenya's 47 counties) |
 
-## Data quality issues found and fixed
+## Data Quality Issues I Found and Fixed
 
-**County names** — 158 distinct spellings in the raw data for 47 real
-counties: casing variants (`SIAYA` / `Siaya` / `siaya`), a `" County"`
-suffix on some rows, and two misspellings (`Monbasa`, `Kissumu`). The
-pre-existing `ministry_projects_clean` table had already normalized this
-correctly — verified by joining against `county_reference` (47/47 matched,
-0 unmatched) rather than re-trusting it blindly.
+While working through the data, I found a few issues that needed to be cleaned up before analysis.
 
-**A latent bug in the pre-existing "clean" budget column** — this is the
-most consequential find. Any raw budget formatted `"Ksh.4,359,000,000"`
-had been parsed as `0.4359` instead of 4.359 billion: the period after
-`"Ksh"` was read as a decimal point. It affected 68 of 695 rows (~10%) and
-understated the national budget total by roughly **112 billion KES**. Fixed
-by stripping the `"Ksh."` / `"KES"` prefix as a whole token *before*
-removing punctuation, so its period is never mistaken for a decimal.
+### **1. County names**
 
-**Duplicate rows** — 15 exact-duplicate `project_id` rows in the existing
-"clean" table (never de-duplicated), plus a subtler issue: `ministry_
-projects_raw` itself contains duplicate `project_id` rows, which caused a
-silent fan-out (652 rows instead of 650) the first time the budget fix was
-joined back to raw. Fixed by de-duplicating both sides before joining.
+There were **158 different spellings** for the 47 counties.
 
-**Inconsistent project codes** — `contractor_reports_raw.project_code` and
-`finance_disbursements_raw.project_ref` used at least five different
-formats for the same code (`RD-2022-0364`, `RD20220185`, `RD - 2023 - 0625`,
-`RD-23-0355`, `0193/2024`). Normalized all of them to the canonical
-`RD-YYYY-NNNN` format used by the projects table — 0 unmatched codes in the
-cleaned output (out of 1,163 contractor reports and 1,648 disbursements).
+Some were just casing differences, some had `"County"` added, and there were also misspellings like `Monbasa` and `Kissumu`.
 
-**Mixed date formats** — five formats in use across the raw date columns
-(`2024-04-04`, `07-Dec-2024`, `29 July 2024`, `13/06/2022`, `07/14/2026`).
-Parsed with a fallback chain that tries `DD/MM` before `MM/DD` (Kenya's
-convention), letting each row's validity — not a guess — decide the format.
+I standardized them and checked them against the county reference table. **All 47 counties matched correctly.**
 
-**Currency formatting** — budgets and disbursements arrived as plain
-numbers, `"KES 1,218,000,000"`, `"Ksh.1,093,097,585"`, and
-`"725000000.00"`. Normalized to `NUMERIC`.
+### **2. A major budget issue**
 
-**Left as flagged anomalies, not silently altered:**
-- `completion_pct` ranges 0–127 (127 is invalid); analysis queries cap it
-  at 100 with `LEAST()` rather than deleting the row.
-- `tranche_number` includes a `"99"` sentinel value with no documented
-  meaning — worth asking the source system owner about.
-- 22 projects have disbursement records entered under **two different
-  spellings** of their project code (see finding below) — reconciled for
-  analysis by code, but not blended into a single "correct" amount, since
-  that would be guessing rather than cleaning.
+This was the biggest finding.
 
-All cleaning is additive: raw tables were never modified, and each output
-is a new table (`ministry_projects_v2`, `contractor_reports_clean`,
-`finance_disbursements_clean`) so the source data stays available for
-audit. Full SQL in [`sql/`](sql/).
+Some budgets like `Ksh.4,359,000,000` had been incorrectly read as `0.4359` instead of **4.359 billion**.
 
-## Key findings
+This affected **68 out of 695 rows** and understated the total budget by roughly **KES 112 billion**.
 
-### 1. 40% of the portfolio is behind schedule
-Of 226 "Ongoing" projects, **197 (87%)** are already past their planned
-completion date. Of 72 projects still "Awarded (Not Started)", **64 (89%)**
-are past that same deadline without having broken ground. That's 261 of
-650 projects — 40% of the entire portfolio — behind schedule.
+I fixed this by removing the `Ksh.` or `KES` prefix first, before cleaning the numbers. This prevented the period in `Ksh.` from being treated as a decimal point.
 
-### 2. 102 stalled projects are holding 233.2bn KES
-15.7% of all projects (102 of 650) are marked "Stalled", representing
-233.2bn KES in committed budget with no active progress.
+### **3. Duplicate records**
+
+I found duplicate `project_id` records in both the existing clean table and the raw data.
+
+This was also causing some records to be counted more than once when joining tables.
+
+I de-duplicated the data before performing the joins.
+
+### **4. Inconsistent project codes**
+
+The same project was sometimes written in different formats, for example:
+
+- `RD-2022-0364`
+- `RD20220185`
+- `RD - 2023 - 0625`
+- `RD-23-0355`
+- `0193/2024`
+
+I standardized these into one format: `RD-YYYY-NNNN`.
+
+After cleaning, there were **no unmatched project codes** across the contractor and finance data.
+
+### **5. Different date formats**
+
+The dates came in several formats, including:
+
+- `2024-04-04`
+- `07-Dec-2024`
+- `29 July 2024`
+- `13/06/2022`
+- `07/14/2026`
+
+I used a fallback approach to convert them into one consistent date format, while accounting for the Kenyan `DD/MM` convention.
+
+### **6. Currency formatting**
+
+Budgets and disbursements also came in different formats, such as:
+
+- `KES 1,218,000,000`
+- `Ksh.1,093,097,585`
+- `725000000.00`
+
+I standardized these into numeric values so they could be used reliably for analysis.
+
+## **Some things I didn't "fix"**
+
+Not every unusual value should automatically be changed.
+
+For example, completion percentages went as high as **127%**, which is outside the normal 0–100% range.
+
+Instead of deleting the record, I flagged it and cap it at 100% when doing analysis using `LEAST()`.
+
+There was also a `99` value in the tranche number field whose meaning isn't documented. I left it for clarification rather than guessing.
+
+There were also **22 projects** where disbursement records appeared under two different spellings of the same project code.
+
+I was able to reconcile them for analysis, but I didn't combine the amounts because doing so without knowing which spelling is correct would mean making an assumption.
+
+## **Keeping the raw data intact**
+
+Most importantly, I kept the raw data untouched.
+
+All cleaning was done in **new tables**, including:
+
+- `ministry_projects_v2`
+- `contractor_reports_clean`
+- `finance_disbursements_clean`
+
+This means the original data is still available for auditing and comparison.
+
+The biggest lesson from this process was that **"clean" data still needs to be questioned**.
+
+I didn't just clean the raw data. I also validated the existing clean tables and found a budget-parsing error that had already made it through the previous cleaning process.
+
+### **Tools & Skills**
+
+`SQL` `BigQuery` `Data Cleaning` `Data Quality` `Data Validation` `Data Reconciliation` `Data Analysis`
+
+#DataAnalytics #SQL #BigQuery #DataQuality #DataCleaning #LearningInPublic
+
+## Key Findings
+
+### **1. 40% of the portfolio is behind schedule**
+
+This was one of the biggest findings.
+
+Out of **226 ongoing projects, 197 (87%)** are already past their planned completion date.
+
+There are also **72 projects marked "Awarded (Not Started)"**, and **64 (89%)** of these are already past their planned completion date without having started.
+
+Together, that means **261 out of 650 projects — about 40% of the entire portfolio — are behind schedule.**
+
+### **2. 102 stalled projects are holding KES 233.2 billion**
+
+There are **102 stalled projects**, which is **15.7% of the entire portfolio**.
+
+These projects represent **KES 233.2 billion** in committed budget with no active progress.
 
 | Status | Projects | Budget (bn KES) |
-|---|---|---|
+|---|---:|---:|
 | Ongoing | 226 | 495.7 |
 | Completed | 172 | 403.7 |
 | Stalled | 102 | 233.2 |
 | Awarded (Not Started) | 72 | 173.1 |
 | Under Procurement | 78 | 167.1 |
 
-### 3. National disbursement is 96.1% of budget — close to on-target
-Total budget: **1,472.7bn KES**. Total disbursed: **1,415.83bn KES**
-(96.1%). This looks healthy at the top line, but two sub-groups pull in
-opposite directions (see next two findings).
+This stood out because a large amount of committed funding is tied to projects that are currently not progressing.
 
-### 4. 22 projects show apparent over-disbursement — and it's a data
-### issue, not overspending
-22 projects appear disbursed at ~155.6% of budget on average. Investigating
-why: **every one of these 22 projects has disbursement records filed under
-two different spellings of its project code** (e.g. `RD-2021-0415` and
-`RD - 2021 - 0415`), each with its own tranche entries. The other 628
-projects, which have disbursements under one consistent code, average a
-much more plausible 90.3% disbursed. This is a duplicate-entry pattern
-from the finance system, not evidence of real financial overrun —
-**recommend the ministry finance team reconcile these 22 specific project
-codes against source records** before treating them as a spending red
-flag.
+### **3. National disbursement is 96.1% of the total budget**
 
-### 5. 46 projects are under-disbursed relative to budget
-46 projects have received less than 50% of their allocated budget in
-disbursements — worth cross-checking against the stalled-project list to
-see whether funding gaps are a cause or a consequence of stalling.
+The total project budget is **KES 1,472.7 billion**, while total recorded disbursements are **KES 1,415.83 billion**.
 
-### 6. Contractor performance varies sharply at similar contract value
+That gives a national disbursement rate of **96.1%**.
+
+At first glance, this looks close to the total budget. However, the number needs to be interpreted carefully because some projects have a data-quality issue affecting their recorded disbursements.
+
+### **4. 22 projects appear over-disbursed — but the data tells a different story**
+
+There are **22 projects** that appear to have received about **155.6% of their budget** on average.
+
+I investigated this further and found that **all 22 projects have disbursement records filed under two different spellings of the same project code**.
+
+For example:
+
+- `RD-2021-0415`
+- `RD - 2021 - 0415`
+
+Each spelling has its own tranche entries, which means the same project can appear to have received more money than its allocated budget.
+
+The other **628 projects**, where the project code was consistent, averaged **90.3% disbursed**.
+
+This suggests that the apparent over-disbursement is a **data duplication issue rather than evidence of actual overspending**.
+
+The 22 project codes should therefore be reconciled against the original finance records before being treated as financial red flags.
+
+### **5. 46 projects are significantly under-disbursed**
+
+There are **46 projects** that have received less than **50% of their allocated budget**.
+
+These projects are worth checking against the stalled-project list to understand whether limited funding could be contributing to delays, or whether the low disbursement is a result of the projects already being stalled.
+
+### **6. Contractor performance varies even at similar contract values**
+
+I also compared contractors with significant project portfolios.
+
 | Contractor | Projects | Value (bn KES) | Stalled | Avg completion % |
-|---|---|---|---|---|
+|---|---:|---:|---:|---:|
 | Cabra International | 38 | 88.3 | 6 | 39.6% |
 | China Wu Yi Co Ltd | 33 | 88.2 | 5 | 42.9% |
 | Reynolds Construction | 32 | 75.1 | **8** | 51.4% |
 | Spencon Services | 28 | 62.7 | 5 | **60.9%** |
 | China Overseas Engineering | 24 | 53.2 | 3 | **33.6%** |
 
-Reynolds Construction carries the highest stall count (8 of 32 projects,
-25%) among top contractors by value. China Overseas Engineering has the
-lowest average completion rate (33.6%) despite a similar project count to
-peers. Spencon Services stands out with the best completion rate (60.9%)
-among the top 12 contractors by value — a useful benchmark when awarding
-future contracts.
+Reynolds Construction had the highest number of stalled projects among these contractors, with **8 out of 32 projects** stalled.
 
-### 7. Bomet leads county-level capital commitment
-Bomet county has the highest total committed budget (54.75bn KES across 21
-projects), followed by Siaya (53.44bn/25), Nyeri (46.16bn/20), Machakos
-(45.83bn/14), and Isiolo (45.63bn/20). Machakos stands out for concentrating
-similar capital (45.83bn) into fewer projects (14) than its peers — larger
-average project size worth understanding (bridge vs. road-length mix).
+China Overseas Engineering had an average completion rate of **33.6%**, despite having a similar number of projects to some of the other contractors.
 
-## Recommendations
+Spencon Services had an average completion rate of **60.9%** across its projects.
 
-1. **Audit the 22 duplicate-code projects** in finance before reporting
-   national disbursement figures externally — the true rate is closer to
-   90% than the blended 96–104% depending on how duplicates are handled.
-2. **Investigate the 102 stalled projects** (233.2bn KES) as a priority —
-   this is the single largest pool of committed-but-idle capital.
-3. **Review Reynolds Construction and China Overseas Engineering** against
-   their contract terms given below-average completion and above-average
-   stall rates at meaningful contract value.
-4. **Clarify the `tranche_number = 99`** convention with the finance
-   system owner — it's outside the normal 1–4 range and its meaning is
-   undocumented.
-5. **Standardize project-code entry** at the point of data entry (one
-   canonical format) to prevent the duplicate-spelling issue from
-   recurring in future disbursement records.
+These differences are useful to investigate further alongside contract terms, project type, location and other factors rather than looking at contractor performance in isolation.
 
+### **7. Bomet has the highest county-level capital commitment**
+
+Bomet had the highest total committed budget at **KES 54.75 billion across 21 projects**.
+
+The other counties with high committed budgets were:
+
+- **Siaya:** KES 53.44 billion across 25 projects
+- **Nyeri:** KES 46.16 billion across 20 projects
+- **Machakos:** KES 45.83 billion across 14 projects
+- **Isiolo:** KES 45.63 billion across 20 projects
+
+Machakos stood out because it has a similar level of committed capital but fewer projects.
+
+That means its projects have a larger average value, which would be worth exploring further by looking at the mix of projects, such as bridges versus road-length projects.
+
+## **Recommendations**
+
+Based on these findings, I would recommend:
+
+### **1. Reconcile the 22 duplicate-code projects**
+
+The finance team should review the **22 projects with duplicate project-code spellings** against the original source records before national disbursement figures are reported externally.
+
+This could materially change the reported disbursement rate.
+
+### **2. Investigate the 102 stalled projects**
+
+The **102 stalled projects represent KES 233.2 billion** in committed capital.
+
+Understanding why these projects stalled should be a priority, especially where large amounts of public funding are tied up.
+
+### **3. Review contractor performance**
+
+Contractors with higher stall counts or lower completion rates should be reviewed against their contract terms, project types and other relevant factors.
+
+The data can help identify where further investigation is needed rather than treating the contractor-level numbers as the explanation on their own.
+
+### **4. Clarify the `tranche_number = 99` value**
+
+The `tranche_number` field normally contains values from **1–4**, but there are records with a value of **99**.
+
+Since its meaning is not documented, I left it unchanged and flagged it for clarification with the finance system owner rather than making an assumption.
+
+### **5. Standardize project codes at data entry**
+
+Project codes should follow **one canonical format** when they are entered into the finance system.
+
+This would help prevent the duplicate-spelling problem from happening again and make it easier to connect project, contractor and finance records reliably.
+
+## **What this analysis showed me**
+
+One of the biggest lessons from this analysis was that the numbers can tell a very different story depending on the quality of the underlying data.
+
+A **96.1% national disbursement rate** looks very different once the duplicate project-code issue is investigated.
+
+The same applies to contractor performance, stalled projects and county-level spending.
+
+The analysis wasn't just about calculating percentages. It was about **questioning the numbers, finding what was behind them, and making sure the data actually supported the conclusions.**
+
+### **Tools & Skills**
+
+`SQL` `BigQuery` `Data Cleaning` `Data Quality` `Data Validation` `Data Reconciliation` `Data Analysis` `Data Interpretation`
+
+#DataAnalytics #SQL #BigQuery #DataQuality #DataAnalysis #LearningInPublic
 ## Files
 
 - [`sql/01_data_profiling.sql`](sql/01_data_profiling.sql) — diagnostic
