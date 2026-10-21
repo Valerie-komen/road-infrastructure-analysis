@@ -2,6 +2,17 @@
 
 **Tooling:** Google BigQuery (SQL only) · Dataset: `light-trail-507513-q5.road_infrastructure`
 
+## In short
+
+- **What:** I cleaned and reconciled records from three systems tracking a ministry road-building programme, then analysed progress, spending, and contractor performance.
+- **Data:** 665 projects, 1,163 contractor reports, and 1,648 finance disbursements across Kenya's 47 counties.
+- **Tools:** SQL in Google BigQuery.
+- **Main findings:**
+  - A budget parsing error in the existing "clean" table understated the total budget by about KES 112 billion.
+  - About 40% of projects (261 out of 650) are behind schedule, and 102 stalled projects hold KES 233.2 billion.
+  - 22 projects looked over-disbursed, but this was caused by the same project code being written two different ways, not by overspending.
+
+
 A ministry road-building program was being tracked across three different systems: **project records, contractor progress reports, and finance disbursements**.
 Each system had its own way of recording information, which created inconsistencies in project codes, dates, budgets and other fields.
 In this project, I cleaned and reconciled the three datasets before using them for analysis.
@@ -80,7 +91,7 @@ I standardized these into numeric values so they could be used reliably for anal
 ## **Some things I didn't "fix"**
 
 Not every unusual value should automatically be changed. For example, completion percentages went as high as **127%**, which is outside the normal 0–100% range.
-Instead of deleting the record, I flagged it and cap it at 100% when doing analysis using `LEAST()`.
+Instead of deleting the record, I flagged it and capped it at 100% during analysis using `LEAST()`.
 There was also a `99` value in the tranche number field whose meaning isn't documented. I left it for clarification rather than guessing.
 There were also **22 projects** where disbursement records appeared under two different spellings of the same project code. I was able to reconcile them for analysis, but I didn't combine the amounts because doing so without knowing which spelling is correct would mean making an assumption.
 
@@ -94,11 +105,6 @@ Most importantly, I kept the raw data untouched. All cleaning was done in **new 
 
 This means the original data is still available for auditing and comparison. The biggest lesson from this process was that **"clean" data still needs to be questioned**.
 I didn't just clean the raw data. I also validated the existing clean tables and found a budget-parsing error that had already made it through the previous cleaning process.
-
-### **Tools & Skills**
-
-`SQL` `BigQuery` `Data Cleaning` `Data Quality` `Data Validation` `Data Reconciliation` `Data Analysis`
-
 
 ## Key Findings
 
