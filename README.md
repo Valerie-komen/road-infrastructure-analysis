@@ -219,3 +219,8 @@ The analysis wasn't just about calculating percentages. It was about **questioni
   fully commented with the reasoning behind each transformation
 - [`sql/03_analysis_queries.sql`](sql/03_analysis_queries.sql) — the
   business-question queries behind every finding in this report
+- [`data/`](data/) — CSV copies of the four cleaned tables, so the dashboard
+  can be built without connecting to BigQuery
+- [`dashboard/`](dashboard/) — the Power BI dashboard
+  (`road_infrastructure dashboard.pbix`), with its colour theme, build guide,
+  and layout mockup

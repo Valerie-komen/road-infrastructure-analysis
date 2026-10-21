@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Road Infrastructure Dashboard — Power BI build target</title>
+<style>
+  :root{
+    color-scheme: light;
+    --page:      #f0efec;
+    --surface:   #fcfcfb;
+    --surface-2: #f5f4f1;
+    --ink:       #0b0b0b;
+    --ink-2:     #52514e;
+    --ink-3:     #898781;
+    --grid:      #e1e0d9;
+    --border:    rgba(11,11,11,0.10);
+    --blue:      #2a78d6;
+    --blue-100:  #cde2fb;
+    --blue-700:  #0d366b;
+    --good:      #0ca30c;
+    --warning:   #fab219;
+    --serious:   #ec835a;
+    --critical:  #d03b3b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --page:      #0d0d0d;
+      --surface:   #1a1a19;
+      --surface-2: #202020;
+      --ink:       #ffffff;
+      --ink-2:     #c3c2b7;
+      --ink-3:     #898781;
+      --grid:      #2c2c2a;
+      --border:    rgba(255,255,255,0.10);
+      --blue:      #3987e5;
+      --blue-100:  #184f95;
+      --blue-700:  #cde2fb;
+      --good:      #0ca30c;
+      --warning:   #fab219;
+      --serious:   #ec835a;
+      --critical:  #e66767;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:      #0d0d0d;
+    --surface:   #1a1a19;
+    --surface-2: #202020;
+    --ink:       #ffffff;
+    --ink-2:     #c3c2b7;
+    --ink-3:     #898781;
+    --grid:      #2c2c2a;
+    --border:    rgba(255,255,255,0.10);
+    --blue:      #3987e5;
+    --blue-100:  #184f95;
+    --blue-700:  #cde2fb;
+    --good:      #0ca30c;
+    --warning:   #fab219;
+    --serious:   #ec835a;
+    --critical:  #e66767;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--page);
+    color:var(--ink);
+    font-family: "Segoe UI", -apple-system, system-ui, Roboto, sans-serif;
+    padding: 20px 16px 40px;
+  }
+  .wrap{max-width:1280px;margin:0 auto;}
+  .num{font-variant-numeric:tabular-nums;}
+
+  /* ---- header ---- */
+  .ribbon{
+    display:flex; align-items:center; gap:8px;
+    font-size:11px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--blue); font-weight:600; margin-bottom:10px;
+  }
+  .ribbon::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--blue);}
+  header{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    flex-wrap:wrap; gap:12px; margin-bottom:14px;
+  }
+  h1{font-size:22px;font-weight:700;margin:0 0 4px;letter-spacing:-0.01em;text-wrap:balance;}
+  .subtitle{font-size:13px;color:var(--ink-2);margin:0;}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--ink-2);}
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .swatch{width:9px;height:9px;border-radius:2px;display:inline-block;}
+
+  /* ---- kpi row ---- */
+  .kpi-row{
+    display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-bottom:14px;
+  }
+  .kpi{
+    background:var(--surface); border:1px solid var(--border); border-radius:6px;
+    padding:14px 16px; position:relative; overflow:hidden;
+  }
+  .kpi.flag{border-left:3px solid var(--critical); padding-left:13px;}
+  .kpi-label{font-size:11px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;}
+  .kpi-value{font-size:26px;font-weight:700;line-height:1;}
+  .kpi-value.crit{color:var(--critical);}
+  .kpi-sub{font-size:11px;color:var(--ink-3);margin-top:5px;}
+
+  /* ---- panel grid ---- */
+  .row{display:grid; gap:10px; margin-bottom:10px;}
+  .row2{grid-template-columns: 1.15fr 0.85fr 1fr;}
+  .row3{grid-template-columns: 1.3fr 1fr;}
+  .panel{
+    background:var(--surface); border:1px solid var(--border); border-radius:6px;
+    padding:16px;
+  }
+  .panel-title{font-size:13px;font-weight:600;margin:0 0 2px;}
+  .panel-desc{font-size:11px;color:var(--ink-3);margin:0 0 12px;}
+
+  svg{display:block; width:100%; height:auto; overflow:visible;}
+  .bar-label{font-size:10.5px;fill:var(--ink-2);}
+  .bar-value{font-size:10.5px;fill:var(--ink);font-weight:600;}
+  .axis-line{stroke:var(--grid);stroke-width:1;}
+
+  /* data quality callout */
+  .callout{
+    display:flex; gap:10px; align-items:flex-start;
+    background:var(--surface-2); border:1px solid var(--border); border-radius:5px;
+    padding:11px 12px; margin-top:10px;
+  }
+  .callout-icon{
+    flex:none; width:20px;height:20px;border-radius:50%;
+    background:var(--serious); color:#fff; font-size:12px; font-weight:700;
+    display:flex;align-items:center;justify-content:center; margin-top:1px;
+  }
+  .callout p{margin:0;font-size:12px;line-height:1.5;color:var(--ink-2);}
+  .callout b{color:var(--ink);font-weight:600;}
+
+  footer{
+    margin-top:16px; padding-top:12px; border-top:1px solid var(--grid);
+    font-size:11px; color:var(--ink-3); display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  }
+
+  @media (max-width:900px){
+    .kpi-row{grid-template-columns:repeat(2,1fr);}
+    .row2,.row3{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="ribbon">Power BI build target — mockup, not live data</div>
+  <header>
+    <div>
+      <h1>Kenya Road Infrastructure — Portfolio Oversight</h1>
+      <p class="subtitle">650 projects · KES 1,472.7B committed · cleaned &amp; modeled from BigQuery SQL</p>
+    </div>
+    <div class="legend">
+      <span><i class="swatch" style="background:var(--blue)"></i>Ongoing</span>
+      <span><i class="swatch" style="background:var(--good)"></i>Completed</span>
+      <span><i class="swatch" style="background:var(--warning)"></i>Under Procurement</span>
+      <span><i class="swatch" style="background:var(--serious)"></i>Awarded (Not Started)</span>
+      <span><i class="swatch" style="background:var(--critical)"></i>Stalled</span>
+    </div>
+  </header>
+
+  <!-- KPI ROW -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-label">Total Projects</div>
+      <div class="kpi-value num">650</div>
+      <div class="kpi-sub">across 47 counties</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Total Budget</div>
+      <div class="kpi-value num">KES 1,472.7B</div>
+      <div class="kpi-sub">committed capital</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Total Disbursed</div>
+      <div class="kpi-value num">KES 1,415.8B</div>
+      <div class="kpi-sub">96.1% of budget</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Behind Schedule</div>
+      <div class="kpi-value num crit">261</div>
+      <div class="kpi-sub">40% of portfolio</div>
+    </div>
+    <div class="kpi flag">
+      <div class="kpi-label">Stalled Projects</div>
+      <div class="kpi-value num crit">102</div>
+      <div class="kpi-sub">KES 233.2B idle</div>
+    </div>
+  </div>
+
+  <!-- ROW 2: status bar / schedule donut / county bar -->
+  <div class="row row2">
+    <div class="panel">
+      <p class="panel-title">Budget by Project Status</p>
+      <p class="panel-desc">Where the KES 1.47T is currently sitting</p>
+      <svg viewBox="0 0 460 190" aria-label="Budget by status bar chart">
+        <!-- bars: track 0-495.7bn scaled to 340px -->
+        <!-- Ongoing 495.7 -->
+        <text x="0" y="14" class="bar-label">Ongoing</text>
+        <rect x="0" y="20" width="340" height="16" rx="3" fill="var(--blue)"/>
+        <text x="346" y="32" class="bar-value">495.7B</text>
+        <!-- Completed 403.7 -->
+        <text x="0" y="52" class="bar-label">Completed</text>
+        <rect x="0" y="58" width="276.9" height="16" rx="3" fill="var(--good)"/>
+        <text x="283" y="70" class="bar-value">403.7B</text>
+        <!-- Stalled 233.2 -->
+        <text x="0" y="90" class="bar-label">Stalled</text>
+        <rect x="0" y="96" width="160" height="16" rx="3" fill="var(--critical)"/>
+        <text x="166" y="108" class="bar-value">233.2B</text>
+        <!-- Awarded Not Started 173.1 -->
+        <text x="0" y="128" class="bar-label">Awarded (Not Started)</text>
+        <rect x="0" y="134" width="118.7" height="16" rx="3" fill="var(--serious)"/>
+        <text x="124.7" y="146" class="bar-value">173.1B</text>
+        <!-- Under Procurement 167.1 -->
+        <text x="0" y="166" class="bar-label">Under Procurement</text>
+        <rect x="0" y="172" width="114.6" height="16" rx="3" fill="var(--warning)"/>
+        <text x="120.6" y="184" class="bar-value">167.1B</text>
+      </svg>
+    </div>
+
+    <div class="panel">
+      <p class="panel-title">Schedule Risk</p>
+      <p class="panel-desc">Ongoing + not-started projects past deadline</p>
+      <svg viewBox="0 0 200 190" aria-label="Schedule risk donut, 40 percent overdue">
+        <circle cx="100" cy="86" r="64" fill="none" stroke="var(--grid)" stroke-width="20"/>
+        <circle cx="100" cy="86" r="64" fill="none" stroke="var(--critical)" stroke-width="20"
+                stroke-dasharray="160.8 402" stroke-dashoffset="0" transform="rotate(-90 100 86)" stroke-linecap="butt"/>
+        <text x="100" y="80" text-anchor="middle" font-size="30" font-weight="700" fill="var(--ink)">40%</text>
+        <text x="100" y="98" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">overdue</text>
+        <text x="100" y="172" text-anchor="middle" font-size="11" fill="var(--ink-2)">261 of 650 projects</text>
+      </svg>
+    </div>
+
+    <div class="panel">
+      <p class="panel-title">Top Counties by Budget</p>
+      <p class="panel-desc">Capital committed, top 8 of 47</p>
+      <svg viewBox="0 0 320 190" aria-label="Top counties by budget bar chart">
+        <text x="0" y="12" class="bar-label">Bomet</text>
+        <rect x="0" y="17" width="230" height="12" rx="2" fill="var(--blue-700)"/>
+        <text x="236" y="27" class="bar-value">54.8B</text>
+        <text x="0" y="35" class="bar-label">Siaya</text>
+        <rect x="0" y="40" width="224.4" height="12" rx="2" fill="var(--blue-700)"/>
+        <text x="230" y="50" class="bar-value">53.4B</text>
+        <text x="0" y="58" class="bar-label">Nyeri</text>
+        <rect x="0" y="63" width="193.7" height="12" rx="2" fill="var(--blue)"/>
+        <text x="200" y="73" class="bar-value">46.2B</text>
+        <text x="0" y="81" class="bar-label">Machakos</text>
+        <rect x="0" y="86" width="192.3" height="12" rx="2" fill="var(--blue)"/>
+        <text x="198" y="96" class="bar-value">45.8B</text>
+        <text x="0" y="104" class="bar-label">Isiolo</text>
+        <rect x="0" y="109" width="191.4" height="12" rx="2" fill="var(--blue)"/>
+        <text x="197" y="119" class="bar-value">45.6B</text>
+        <text x="0" y="127" class="bar-label">Kilifi</text>
+        <rect x="0" y="132" width="184.5" height="12" rx="2" fill="var(--blue)"/>
+        <text x="190" y="142" class="bar-value">44.0B</text>
+        <text x="0" y="150" class="bar-label">Kiambu</text>
+        <rect x="0" y="155" width="178.6" height="12" rx="2" fill="var(--blue-100)"/>
+        <text x="184" y="165" class="bar-value">42.6B</text>
+        <text x="0" y="173" class="bar-label">Kajiado</text>
+        <rect x="0" y="178" width="178.3" height="12" rx="2" fill="var(--blue-100)"/>
+        <text x="184" y="188" class="bar-value">42.5B</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ROW 3: contractor scatter / data quality callout -->
+  <div class="row row3">
+    <div class="panel">
+      <p class="panel-title">Contractor Performance</p>
+      <p class="panel-desc">Avg. completion % vs. stalled project count — bubble size = contract value</p>
+      <svg viewBox="0 0 460 220" aria-label="Contractor performance scatter chart">
+        <!-- axes -->
+        <line x1="40" y1="10" x2="40" y2="180" class="axis-line"/>
+        <line x1="40" y1="180" x2="450" y2="180" class="axis-line"/>
+        <text x="245" y="205" text-anchor="middle" font-size="10.5" fill="var(--ink-3)">Average completion (%)</text>
+        <text x="14" y="95" text-anchor="middle" font-size="10.5" fill="var(--ink-3)" transform="rotate(-90 14 95)">Stalled projects</text>
+        <text x="40" y="192" font-size="9.5" fill="var(--ink-3)">0</text>
+        <text x="440" y="192" font-size="9.5" fill="var(--ink-3)">70</text>
+        <text x="28" y="184" font-size="9.5" fill="var(--ink-3)">0</text>
+        <text x="28" y="18" font-size="9.5" fill="var(--ink-3)">8</text>
+
+        <!-- bubbles: x = 40 + pct/70*400 (clamped), y = 180 - stalled/8*160 -->
+        <!-- Cabra Intl: 39.6%, 6 stalled, 88.3bn -->
+        <circle cx="266" cy="60" r="17" fill="var(--blue)" fill-opacity="0.75"/>
+        <text x="266" y="40" text-anchor="middle" font-size="9.5" fill="var(--ink-2)">Cabra Intl</text>
+        <!-- China Wu Yi: 42.9%, 5, 88.2bn -->
+        <circle cx="285" cy="80" r="17" fill="var(--blue)" fill-opacity="0.6"/>
+        <text x="315" y="84" text-anchor="start" font-size="9.5" fill="var(--ink-2)">China Wu Yi</text>
+        <!-- Reynolds: 51.4%, 8, 75.1bn -->
+        <circle cx="334" cy="20" r="16" fill="var(--critical)" fill-opacity="0.8"/>
+        <text x="334" y="14" text-anchor="middle" font-size="9.5" fill="var(--critical)" font-weight="600">Reynolds ↑ risk</text>
+        <!-- Spencon: 60.9%, 5, 62.7bn -->
+        <circle cx="388" cy="80" r="15" fill="var(--good)" fill-opacity="0.75"/>
+        <text x="388" y="103" text-anchor="middle" font-size="9.5" fill="var(--good)" font-weight="600">Spencon — best rate</text>
+        <!-- Southern Eng: 44.3%, 4, 59.48bn -->
+        <circle cx="293" cy="100" r="15" fill="var(--blue)" fill-opacity="0.5"/>
+        <!-- Balgobind: 41.6%, 3, 59.39bn -->
+        <circle cx="278" cy="120" r="15" fill="var(--blue)" fill-opacity="0.5"/>
+        <!-- China Overseas: 33.6%, 3, 53.16bn -->
+        <circle cx="232" cy="120" r="14" fill="var(--serious)" fill-opacity="0.8"/>
+        <text x="200" y="140" text-anchor="middle" font-size="9.5" fill="var(--serious)" font-weight="600">China Overseas — lowest</text>
+      </svg>
+    </div>
+
+    <div class="panel">
+      <p class="panel-title">Data Quality Notes</p>
+      <p class="panel-desc">What the cleaning pass caught — worth a slide of its own</p>
+
+      <div class="callout">
+        <div class="callout-icon">!</div>
+        <p><b>68 rows (~10%) had a budget-parsing bug</b> in the source "clean" table — "Ksh.4,359,000,000" was read as 0.4359. Fixed by stripping the currency prefix before parsing, recovering ~KES 112B in understated budget.</p>
+      </div>
+      <div class="callout">
+        <div class="callout-icon">!</div>
+        <p><b>22 projects showed apparent over-disbursement</b> (~155% of budget) — traced to disbursements filed under two different spellings of the same project code, not real overspending. Flagged for finance reconciliation rather than silently merged.</p>
+      </div>
+      <div class="callout">
+        <div class="callout-icon">!</div>
+        <p><b>158 raw county spellings</b> collapsed to Kenya's real 47 via a validated join against a reference table, catching 2 misspellings (Monbasa → Mombasa, Kissumu → Kisumu) along the way.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>Source: BigQuery · SQL in <b style="color:var(--ink-2)">road-infrastructure-analysis</b> repo</span>
+    <span>Layout target for Power BI Desktop — see build guide</span>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,651 @@
+project_id,project_name,county,contractor,budget_kes,start_date,planned_completion_date,status
+RD-2021-0007,Thika-Kenol Junction Improvement,Kitui,Balgobind Enterprises,2273000000,2021-05-16,2022-06-16,Under Procurement
+RD-2021-0012,Mai Mahiu-Narok Bypass,Kirinyaga,China Road and Bridge Corp,725000000,2021-06-25,2023-05-03,Awarded (Not Started)
+RD-2021-0014,Mai Mahiu-Narok Feeder Road,Wajir,Kundan Singh Construction,2849000000,2021-02-13,2023-04-06,Completed
+RD-2021-0015,Nyahururu-Nyeri Dual Carriageway Expansion,Machakos,Great Wall Engineering Ltd,4497000000,2021-09-28,2023-11-01,Completed
+RD-2021-0017,Mai Mahiu-Narok Link Road,Baringo,Southern Engineering Co,882000000,2021-04-14,2023-08-09,Under Procurement
+RD-2021-0018,Chuka-Nkubu Feeder Road,Nakuru,Balgobind Enterprises,560000000,2021-12-04,2023-06-25,Ongoing
+RD-2021-0020,Kapsabet-Chavakali Highway Upgrade,Narok,China Wu Yi Co Ltd,4240000000,2021-06-14,2022-06-19,Ongoing
+RD-2021-0022,Garissa-Modogashe Bypass,Murang'a,Southern Engineering Co,899000000,2021-05-31,2023-05-31,Ongoing
+RD-2021-0023,Wote-Machakos Bridge Construction,Isiolo,China Overseas Engineering,4413000000,2021-01-17,2023-05-30,Awarded (Not Started)
+RD-2021-0025,Garissa-Modogashe Access Road,Tana River,Spencon Services,441000000,2021-08-01,2022-06-13,Awarded (Not Started)
+RD-2021-0028,Eldoret-Webuye Access Road,Meru,China Road and Bridge Corp,2265000000,2021-11-23,2024-05-09,Ongoing
+RD-2021-0035,Garissa-Modogashe Bridge Construction,Isiolo,Nyakinywa Construction Ltd,2825000000,2021-07-11,2022-09-04,Stalled
+RD-2021-0037,Kapsabet-Chavakali Dual Carriageway Expansion,Meru,China Wu Yi Co Ltd,2121000000,2021-09-06,2023-06-15,Ongoing
+RD-2021-0038,Marsabit-Moyale Access Road,Nandi,Cabra International,3732000000,2021-11-22,2023-09-19,Completed
+RD-2021-0050,Nyahururu-Nyeri Bypass,Bungoma,Nyakinywa Construction,1645000000,2021-06-25,2022-08-26,Stalled
+RD-2021-0055,Malaba-Kisumu Bypass,Kiambu,Spencon Services Ltd,3993000000,2021-08-22,2022-04-25,Completed
+RD-2021-0057,Isebania-Migori Feeder Road,Garissa,SPENCON SERVICES,745000000,2021-11-18,2023-01-17,Ongoing
+RD-2021-0059,Mai Mahiu-Narok Highway Upgrade,Kericho,Spencon Services,1245000000,2021-05-27,2022-01-23,Ongoing
+RD-2021-0064,Voi-Taveta Bridge Construction,Bomet,Southern Engineering Co Ltd,4050000000,2021-06-09,2022-03-04,Under Procurement
+RD-2021-0068,Homa Bay-Rongo Access Road,Machakos,China Road and Bridge Corp,3445000000,2021-03-31,2022-08-18,Stalled
+RD-2021-0072,Kitale-Suam Dual Carriageway Expansion,Nyamira,Reynolds Construction,2533000000,2021-03-01,2021-10-14,Ongoing
+RD-2021-0074,Kapenguria-Lodwar Dual Carriageway Expansion,Makueni,Zakhem International,,2021-01-06,2023-02-23,Under Procurement
+RD-2021-0077,Kitale-Suam Bypass,Mandera,Zakhem International,3691000000,2021-03-10,2023-04-22,Completed
+RD-2021-0079,Mombasa-Mariakani Junction Improvement,Migori,Kundan Singh Construction,3312000000,2021-01-29,2022-04-24,Completed
+RD-2021-0083,Kitale-Suam Junction Improvement,West Pokot,Cabra International,3018000000,2021-05-05,2022-12-13,Ongoing
+RD-2021-0093,Kitale-Suam Junction Improvement,Kitui,Cabra International,3091000000,2021-08-24,2022-02-12,Completed
+RD-2021-0118,Kapsabet-Chavakali Bypass,Lamu,Balgobind Enterprises,3931000000,2021-03-31,2023-09-07,Completed
+RD-2021-0120,Wote-Machakos Bypass,Lamu,Zakhem International,1731000000,2021-03-31,2022-04-19,Awarded (Not Started)
+RD-2021-0124,Marsabit-Moyale Access Road,Turkana,Spencon Services,549000000,2021-06-03,2023-10-18,Stalled
+RD-2021-0132,Nyahururu-Nyeri Feeder Road,Taita Taveta,Cabra International,2328000000,2021-09-14,2023-12-13,Ongoing
+RD-2021-0133,Marsabit-Moyale Junction Improvement,Homa Bay,Colas Kenya,417000000,2021-02-28,2021-11-18,Ongoing
+RD-2021-0136,Wote-Machakos Feeder Road,Nyandarua,Mota-Engil Africa,873000000,2021-04-14,2022-08-04,Under Procurement
+RD-2021-0138,Chuka-Nkubu Dual Carriageway Expansion,Nyeri,Zakhem International,4476000000,2021-01-17,2021-03-11,Completed
+RD-2021-0143,Marsabit-Moyale Access Road,Siaya,MOTA-ENGIL AFRICA,2064000000,2021-03-06,2023-11-04,Under Procurement
+RD-2021-0150,Bomet-Sotik Bypass,Kitui,Reynolds Construction,3503000000,2021-12-27,2022-08-01,Under Procurement
+RD-2021-0157,Wote-Machakos Link Road,Kajiado,Great Wall Engineering,4084000000,2021-07-06,2023-06-08,Completed
+RD-2021-0158,Nyahururu-Nyeri Bypass,Trans Nzoia,Great Wall Engineering,678000000,2021-04-03,2022-12-07,Ongoing
+RD-2021-0167,Thika-Kenol Bridge Construction,Tharaka-Nithi,Balgobind Enterprises,403000000,2021-05-30,2022-06-06,Awarded (Not Started)
+RD-2021-0172,Bomet-Sotik Bypass,Meru,NYAKINYWA CONSTRUCTION,357000000,2021-06-02,2023-10-14,Ongoing
+RD-2021-0174,Kapenguria-Lodwar Bridge Construction,Mombasa,Cabra International,2428000000,2021-02-05,2022-12-31,Awarded (Not Started)
+RD-2021-0203,Bomet-Sotik Bridge Construction,Turkana,China Overseas Engineering,4493000000,2021-12-11,2023-05-06,Under Procurement
+RD-2021-0209,Nyahururu-Nyeri Link Road,Isiolo,OSTWAL INVESTMENTS,2131000000,2021-06-18,2022-12-30,Stalled
+RD-2021-0230,Wote-Machakos Bridge Construction,Embu,Southern Engineering Co,2250000000,2021-09-03,2022-06-02,Ongoing
+RD-2021-0232,Bomet-Sotik Feeder Road,Bomet,Kirinyaga Engineering Works,3865000000,2021-07-28,2022-06-16,Ongoing
+RD-2021-0233,Garissa-Modogashe Bridge Construction,Migori,KUNDAN SINGH CONSTRUCTION,258000000,2021-05-13,2022-05-30,Under Procurement
+RD-2021-0237,Kapsabet-Chavakali Junction Improvement,Laikipia,Colas Kenya,1986000000,2021-11-23,2022-09-01,Ongoing
+RD-2021-0238,Homa Bay-Rongo Access Road,Kitui,Ostwal Investments,1503000000,2021-12-27,2023-02-22,Completed
+RD-2021-0239,Chuka-Nkubu Bridge Construction,Tharaka-Nithi,REYNOLDS CONSTRUCTION,4097000000,2021-03-19,2021-12-16,Ongoing
+RD-2021-0240,Eldoret-Webuye Highway Upgrade,Mandera,Ammoun Company,567000000,2021-02-14,2022-11-01,Completed
+RD-2021-0241,Kitale-Suam Junction Improvement,Vihiga,Zakhem International,2722000000,2021-10-07,2022-09-13,Stalled
+RD-2021-0244,Malaba-Kisumu Link Road,Murang'a,Ammoun Company,3738000000,2021-01-24,2022-04-20,Ongoing
+RD-2021-0246,Kilifi-Malindi Bypass,Kilifi,Ammoun Company Ltd,2219000000,2021-08-03,2022-04-15,Ongoing
+RD-2021-0249,Marsabit-Moyale Dual Carriageway Expansion,Nyeri,GREAT WALL ENGINEERING,874000000,2021-02-22,2022-03-20,Ongoing
+RD-2021-0251,Homa Bay-Rongo Bypass,Nyandarua,Mota-Engil Africa,872000000,2021-06-25,2023-11-06,Ongoing
+RD-2021-0253,Marsabit-Moyale Highway Upgrade,Migori,KIRINYAGA ENGINEERING WORKS,3758000000,2021-12-21,2022-12-07,Under Procurement
+RD-2021-0254,Voi-Taveta Bridge Construction,Siaya,Ammoun Company,628000000,2021-06-28,2023-01-26,Completed
+RD-2021-0256,Nyahururu-Nyeri Access Road,Uasin Gishu,Kensa Engineering,3955000000,2021-03-18,2022-03-09,Ongoing
+RD-2021-0259,Kericho-Sotik Bypass,Kajiado,Nyakinywa Construction,1382000000,2021-05-15,2022-09-25,Stalled
+RD-2021-0260,Thika-Kenol Feeder Road,Tharaka-Nithi,China Wu Yi Co Ltd,3819000000,2021-04-14,2022-10-15,Stalled
+RD-2021-0261,Mai Mahiu-Narok Junction Improvement,Kwale,Kensa Engineering,,2021-12-30,2023-10-26,Completed
+RD-2021-0271,Homa Bay-Rongo Highway Upgrade,Isiolo,Kensa Engineering,801000000,2021-09-23,2023-12-11,Completed
+RD-2021-0277,Kericho-Sotik Access Road,Tharaka-Nithi,ZAKHEM INTERNATIONAL,1393000000,2021-03-22,2023-04-02,Completed
+RD-2021-0279,Athi River-Namanga Link Road,Murang'a,Kirinyaga Engineering Works,455000000,2021-01-20,2021-12-07,Stalled
+RD-2021-0281,Kitale-Suam Highway Upgrade,Isiolo,China Wu Yi Co Ltd,1385000000,2021-01-08,2023-03-30,Under Procurement
+RD-2021-0282,Kapenguria-Lodwar Highway Upgrade,Busia,Kensa Engineering,4078000000,2021-08-20,2023-04-13,Completed
+RD-2021-0284,Malaba-Kisumu Dual Carriageway Expansion,Mombasa,Kensa Engineering,1434000000,2021-03-06,2023-04-17,Ongoing
+RD-2021-0285,Garissa-Modogashe Dual Carriageway Expansion,Machakos,SOUTHERN ENGINEERING CO,3750000000,2021-06-30,2023-05-21,Completed
+RD-2021-0288,Kitale-Suam Bypass,Kisii,Reynolds Construction Ltd,4113000000,2021-10-15,2023-06-06,Ongoing
+RD-2021-0294,Kapenguria-Lodwar Link Road,Elgeyo-Marakwet,Sinohydro Corporation,3200000000,2021-10-25,2022-06-16,Stalled
+RD-2021-0298,Thika-Kenol Access Road,Samburu,Spencon Services,2244000000,2021-09-24,2022-03-09,Completed
+RD-2021-0299,Marsabit-Moyale Bridge Construction,Siaya,Kensa Engineering,,2021-05-30,2022-10-17,Completed
+RD-2021-0302,Isebania-Migori Junction Improvement,Nyeri,Nyakinywa Construction,754000000,2021-07-16,2022-02-07,Under Procurement
+RD-2021-0307,Kericho-Sotik Bypass,Nairobi,Cabra International,1238000000,2021-09-10,2022-04-20,Ongoing
+RD-2021-0308,Kericho-Sotik Feeder Road,Nairobi,Bhogal Contractors,4278000000,2021-10-19,2022-09-28,Ongoing
+RD-2021-0313,Kapenguria-Lodwar Access Road,Narok,Colas Kenya,1822000000,2021-03-17,2023-03-31,Ongoing
+RD-2021-0315,Malaba-Kisumu Highway Upgrade,Isiolo,Kensa Engineering,3019000000,2021-03-24,2022-05-02,Awarded (Not Started)
+RD-2021-0316,Mombasa-Mariakani Dual Carriageway Expansion,West Pokot,Southern Engineering Co,460000000,2021-03-23,2023-07-15,Ongoing
+RD-2021-0330,Voi-Taveta Dual Carriageway Expansion,Taita Taveta,China Overseas Engineering,3646000000,2021-06-30,2022-03-02,Ongoing
+RD-2021-0337,Kapenguria-Lodwar Bridge Construction,Kericho,CHINA ROAD AND BRIDGE CORP,2433000000,2021-07-10,2023-02-18,Stalled
+RD-2021-0341,Kericho-Sotik Access Road,Narok,Reynolds Construction Ltd,3825000000,2021-09-04,2024-02-16,Completed
+RD-2021-0346,Marsabit-Moyale Feeder Road,Turkana,Colas Kenya,4490000000,2021-12-24,2023-04-09,Completed
+RD-2021-0347,Eldoret-Webuye Access Road,Isiolo,China Overseas Engineering,3395000000,2021-05-27,2022-12-02,Ongoing
+RD-2021-0349,Isebania-Migori Highway Upgrade,Taita Taveta,BALGOBIND ENTERPRISES,923000000,2021-07-15,2022-03-17,Under Procurement
+RD-2021-0353,Kericho-Sotik Bridge Construction,Mandera,Kensa Engineering,4463000000,2021-01-18,2023-06-21,Under Procurement
+RD-2021-0356,Chuka-Nkubu Feeder Road,Busia,Ammoun Company,238000000,2021-11-08,2022-06-26,Under Procurement
+RD-2021-0360,Eldoret-Webuye Highway Upgrade,Kirinyaga,China Wu Yi Co Ltd,4347000000,2021-09-08,2022-11-21,Completed
+RD-2021-0361,Nyahururu-Nyeri Link Road,Isiolo,Balgobind Enterprises,2071000000,2021-01-19,2021-08-30,Completed
+RD-2021-0367,Voi-Taveta Highway Upgrade,Kilifi,China Wu Yi Co Ltd,1735000000,2021-08-08,2023-06-16,Ongoing
+RD-2021-0371,Homa Bay-Rongo Junction Improvement,Garissa,Southern Engineering Co,3578000000,2021-08-02,2022-07-18,Awarded (Not Started)
+RD-2021-0375,Mai Mahiu-Narok Feeder Road,Vihiga,Spencon Services,2540000000,2021-07-08,2023-08-11,Completed
+RD-2021-0376,Marsabit-Moyale Bridge Construction,Garissa,China Wu Yi Co Ltd,3205000000,2021-06-10,2022-02-02,Under Procurement
+RD-2021-0378,Mombasa-Mariakani Dual Carriageway Expansion,Nairobi,CHINA OVERSEAS ENGINEERING,4214000000,2021-07-04,2022-08-15,Completed
+RD-2021-0393,Mai Mahiu-Narok Feeder Road,Uasin Gishu,Great Wall Engineering,621000000,2021-12-29,2023-09-19,Awarded (Not Started)
+RD-2021-0400,Kilifi-Malindi Dual Carriageway Expansion,Kirinyaga,Zakhem International,1560000000,2021-08-29,2022-07-09,Under Procurement
+RD-2021-0407,Kilifi-Malindi Feeder Road,Kitui,Sinohydro Corporation,1048000000,2021-02-19,2022-12-07,Stalled
+RD-2021-0409,Eldoret-Webuye Access Road,Kiambu,Colas Kenya,318000000,2021-12-26,2023-08-01,Ongoing
+RD-2021-0411,Isebania-Migori Junction Improvement,Kwale,Ostwal Investments,622000000,2021-11-02,2023-12-02,Awarded (Not Started)
+RD-2021-0415,Thika-Kenol Dual Carriageway Expansion,Nairobi,Balgobind Enterprises,4359000000,2021-08-26,2022-02-26,Ongoing
+RD-2021-0418,Marsabit-Moyale Junction Improvement,Kirinyaga,CABRA INTERNATIONAL,3714000000,2021-04-14,2022-02-21,Ongoing
+RD-2021-0420,Homa Bay-Rongo Highway Upgrade,Baringo,Kundan Singh Construction,3916000000,2021-07-19,2023-04-26,Ongoing
+RD-2021-0424,Athi River-Namanga Junction Improvement,Elgeyo-Marakwet,Cabra International,2014000000,2021-12-21,2024-04-27,Stalled
+RD-2021-0428,Marsabit-Moyale Access Road,Mombasa,MOTA-ENGIL AFRICA,2489000000,2021-05-08,2022-11-17,Under Procurement
+RD-2021-0444,Kilifi-Malindi Bridge Construction,Kitui,Great Wall Engineering,358000000,2021-02-18,2023-05-13,Ongoing
+RD-2021-0449,Kapenguria-Lodwar Bypass,Marsabit,BALGOBIND ENTERPRISES,2262000000,2021-11-07,2024-04-21,Ongoing
+RD-2021-0451,Garissa-Modogashe Junction Improvement,Kisumu,Cabra International Ltd,2865000000,2021-06-14,2023-03-26,Awarded (Not Started)
+RD-2021-0452,Mombasa-Mariakani Link Road,Kirinyaga,Ostwal Investments,4065000000,2021-06-23,2023-09-28,Completed
+RD-2021-0454,Bomet-Sotik Highway Upgrade,Migori,COLAS KENYA,1988000000,2021-05-28,2021-12-31,Stalled
+RD-2021-0456,Athi River-Namanga Junction Improvement,Tharaka-Nithi,Balgobind Enterprises Ltd,2736000000,2021-09-05,2024-02-02,Completed
+RD-2021-0461,Mai Mahiu-Narok Dual Carriageway Expansion,Narok,Great Wall Engineering,2344000000,2021-04-19,2022-05-02,Ongoing
+RD-2021-0463,Malaba-Kisumu Bypass,Meru,Kensa Engineering,,2021-08-26,2022-05-05,Awarded (Not Started)
+RD-2021-0464,Mai Mahiu-Narok Link Road,Murang'a,Ammoun Company,,2021-07-20,2022-09-15,Stalled
+RD-2021-0465,Voi-Taveta Feeder Road,Elgeyo-Marakwet,China Overseas Engineering,3807000000,2021-12-31,2023-07-30,Completed
+RD-2021-0466,Kitale-Suam Dual Carriageway Expansion,Mandera,Southern Engineering Co Ltd,3506000000,2021-12-17,2023-06-01,Ongoing
+RD-2021-0477,Mombasa-Mariakani Highway Upgrade,Taita Taveta,Zakhem International,710000000,2021-08-12,2022-07-26,Ongoing
+RD-2021-0490,Mombasa-Mariakani Bridge Construction,Meru,Cabra International,4098000000,2021-03-28,2022-07-30,Awarded (Not Started)
+RD-2021-0496,Bomet-Sotik Link Road,Kajiado,Bhogal Contractors,3852000000,2021-06-06,2022-04-01,Awarded (Not Started)
+RD-2021-0497,Kapsabet-Chavakali Junction Improvement,Bungoma,REYNOLDS CONSTRUCTION,2575000000,2021-02-28,2021-12-26,Ongoing
+RD-2021-0501,Isebania-Migori Bridge Construction,Embu,Reynolds Construction,4480000000,2021-09-01,2021-10-17,Under Procurement
+RD-2021-0503,Thika-Kenol Link Road,Bomet,Ammoun Company,4124000000,2021-08-25,2023-03-22,Ongoing
+RD-2021-0514,Malaba-Kisumu Bypass,Kiambu,Cabra International,2751000000,2021-03-18,2022-12-29,Stalled
+RD-2021-0519,Nyahururu-Nyeri Dual Carriageway Expansion,Trans Nzoia,Cabra International,1559000000,2021-02-08,2023-11-05,Stalled
+RD-2021-0523,Malaba-Kisumu Bypass,Bomet,KENSA ENGINEERING,243000000,2021-04-24,2022-01-14,Ongoing
+RD-2021-0530,Chuka-Nkubu Access Road,Nakuru,Ammoun Company,3540000000,2021-07-25,2022-04-07,Stalled
+RD-2021-0533,Mombasa-Mariakani Access Road,Meru,Colas Kenya,1918000000,2021-02-12,2021-09-03,Under Procurement
+RD-2021-0537,Wote-Machakos Link Road,Kisumu,Sinohydrooration Ltd,3921000000,2021-09-30,2023-02-23,Under Procurement
+RD-2021-0552,Thika-Kenol Link Road,Kakamega,China Wu Yi Co Ltd,4285000000,2021-09-08,2023-07-12,Completed
+RD-2021-0553,Wote-Machakos Highway Upgrade,Homa Bay,Reynolds Construction,3299000000,2021-03-04,2021-12-24,Completed
+RD-2021-0557,Voi-Taveta Dual Carriageway Expansion,Baringo,Bhogal Contractors,258000000,2021-08-27,2022-08-12,Under Procurement
+RD-2021-0558,Isebania-Migori Bridge Construction,Machakos,Colas Kenya,3289000000,2021-04-15,2022-09-18,Ongoing
+RD-2021-0560,Garissa-Modogashe Bridge Construction,Bomet,Bhogal Contractors,3957000000,2021-08-28,2023-07-15,Stalled
+RD-2021-0564,Thika-Kenol Link Road,Narok,Ammoun Company,3607000000,2021-08-22,2023-11-12,Ongoing
+RD-2021-0568,Eldoret-Webuye Bridge Construction,Laikipia,Nyakinywa Construction Ltd,1482000000,2021-06-24,2022-09-19,Completed
+RD-2021-0574,Mai Mahiu-Narok Bridge Construction,Makueni,Bhogal Contractors,4219000000,2021-08-15,2022-04-13,Awarded (Not Started)
+RD-2021-0576,Voi-Taveta Access Road,Kakamega,NYAKINYWA CONSTRUCTION,2108000000,2021-08-04,2023-01-01,Completed
+RD-2021-0578,Athi River-Namanga Highway Upgrade,Nakuru,Mota-Engil Africa,4223000000,2021-09-18,2023-07-26,Stalled
+RD-2021-0579,Thika-Kenol Highway Upgrade,Laikipia,Cabra International,3105000000,2021-09-01,2023-11-06,Awarded (Not Started)
+RD-2021-0580,Kericho-Sotik Bridge Construction,Kirinyaga,ZAKHEM INTERNATIONAL,4060000000,2021-02-27,2022-01-19,Ongoing
+RD-2021-0581,Kapenguria-Lodwar Link Road,Nakuru,Cabra International,2936000000,2021-05-19,2021-12-30,Completed
+RD-2021-0582,Kapsabet-Chavakali Dual Carriageway Expansion,Mandera,Southern Engineering Co,3758000000,2021-11-02,2023-03-30,Ongoing
+RD-2021-0584,Homa Bay-Rongo Feeder Road,Tana River,Kensa Engineering,4197000000,2021-02-08,2021-12-08,Stalled
+RD-2021-0586,Mombasa-Mariakani Bridge Construction,Murang'a,Kundan Singh Construction,1019000000,2021-07-23,2023-07-27,Ongoing
+RD-2021-0599,Kapenguria-Lodwar Bridge Construction,Migori,CABRA INTERNATIONAL,3798000000,2021-01-05,2022-09-14,Stalled
+RD-2021-0604,Garissa-Modogashe Highway Upgrade,Kisii,CHINA WU YI CO LTD,,2021-04-23,2022-08-24,Stalled
+RD-2021-0607,Mai Mahiu-Narok Highway Upgrade,Meru,China Wu Yi Co Ltd,575000000,2021-09-19,2023-01-31,Completed
+RD-2021-0611,Mombasa-Mariakani Feeder Road,Kiambu,Balgobind Enterprises,1589000000,2021-01-14,2022-07-19,Ongoing
+RD-2021-0614,Malaba-Kisumu Access Road,Homa Bay,Kundan Singh Construction,1050000000,2021-10-23,2022-09-01,Awarded (Not Started)
+RD-2021-0616,Isebania-Migori Link Road,Nakuru,Kensa Engineering,611000000,2021-12-09,2023-11-09,Completed
+RD-2021-0620,Kapsabet-Chavakali Link Road,Narok,Spencon Services Ltd,1945000000,2021-07-21,2022-05-18,Ongoing
+RD-2021-0637,Kitale-Suam Access Road,Kajiado,Zakhem International,3717000000,2021-04-18,2023-06-19,Ongoing
+RD-2021-0639,Malaba-Kisumu Bypass,Nairobi,Bhogal Contractors,4278000000,2021-08-09,2023-01-05,Ongoing
+RD-2021-0640,Isebania-Migori Link Road,Kitui,Ostwal Investments Ltd,2729000000,2021-12-22,2022-05-07,Completed
+RD-2021-0641,Athi River-Namanga Bridge Construction,Embu,China Overseas Engineering,4172000000,2021-07-28,2023-07-27,Awarded (Not Started)
+RD-2021-0649,Athi River-Namanga Access Road,Nandi,Mota-Engil Africa Ltd,4028000000,2021-02-10,2022-09-03,Completed
+RD-2021-0650,Bomet-Sotik Dual Carriageway Expansion,Samburu,KUNDAN SINGH CONSTRUCTION,2809000000,2021-07-10,2023-07-29,Ongoing
+RD-2022-0001,Kitale-Suam Bypass,Siaya,Spencon Services,2086000000,2022-04-03,2023-02-19,Stalled
+RD-2022-0003,Athi River-Namanga Junction Improvement,Isiolo,Spencon Services,1353000000,2022-03-17,2023-08-23,Ongoing
+RD-2022-0008,Wote-Machakos Highway Upgrade,Kisumu,Spencon Services,1223000000,2022-05-21,2024-06-13,Completed
+RD-2022-0019,Bomet-Sotik Dual Carriageway Expansion,Nairobi,Mota-Engil Africa,1635000000,2022-08-31,2023-07-10,Under Procurement
+RD-2022-0030,Eldoret-Webuye Bypass,Kericho,KIRINYAGA ENGINEERING WORKS,2219000000,2022-01-01,2024-02-14,Under Procurement
+RD-2022-0031,Kapsabet-Chavakali Link Road,Bungoma,Balgobind Enterprises,1637000000,2022-06-06,2023-01-17,Stalled
+RD-2022-0033,Mombasa-Mariakani Bridge Construction,Murang'a,Cabra International,1122000000,2022-01-28,2023-09-30,Stalled
+RD-2022-0043,Malaba-Kisumu Bypass,Baringo,Spencon Services,3185000000,2022-11-02,2023-12-03,Completed
+RD-2022-0049,Mai Mahiu-Narok Link Road,Murang'a,Spencon Services,3772000000,2022-05-15,2024-02-29,Completed
+RD-2022-0052,Kericho-Sotik Dual Carriageway Expansion,Kiambu,SPENCON SERVICES,2591000000,2022-05-30,2023-07-20,Ongoing
+RD-2022-0070,Voi-Taveta Link Road,Uasin Gishu,Kensa Engineering,2251000000,2022-11-25,2025-02-20,Stalled
+RD-2022-0071,Chuka-Nkubu Bypass,Murang'a,China Overseas Engineering Ltd,640000000,2022-04-26,2024-07-30,Stalled
+RD-2022-0075,Isebania-Migori Access Road,Kirinyaga,Kensa Engineering,953000000,2022-05-01,2023-11-22,Completed
+RD-2022-0081,Kilifi-Malindi Dual Carriageway Expansion,Kilifi,Kirinyaga Engineering Works,876000000,2022-04-26,2024-04-25,Ongoing
+RD-2022-0084,Marsabit-Moyale Bypass,Siaya,China Wu Yi Co Ltd,2812000000,2022-05-14,2023-03-18,Awarded (Not Started)
+RD-2022-0085,Eldoret-Webuye Highway Upgrade,Kitui,China Overseas Engineering,103000000,2022-07-22,2023-06-15,Under Procurement
+RD-2022-0086,Mai Mahiu-Narok Junction Improvement,Turkana,SINOHYDRO CORPORATION,1507000000,2022-06-28,2023-02-16,Ongoing
+RD-2022-0089,Eldoret-Webuye Access Road,Bomet,China Overseas Engineering,4426000000,2022-08-27,2024-01-06,Completed
+RD-2022-0099,Athi River-Namanga Bypass,Kilifi,SOUTHERN ENGINEERING CO,,2022-10-04,2024-11-11,Completed
+RD-2022-0100,Kericho-Sotik Link Road,Kisii,Bhogal Contractors,947000000,2022-05-14,2024-01-30,Completed
+RD-2022-0107,Garissa-Modogashe Junction Improvement,Kiambu,Kirinyaga Engineering Works,3246000000,2022-08-05,2023-10-17,Stalled
+RD-2022-0116,Mai Mahiu-Narok Bridge Construction,Nyeri,KIRINYAGA ENGINEERING WORKS,471000000,2022-05-04,2024-01-03,Stalled
+RD-2022-0125,Wote-Machakos Bypass,Bungoma,Mota-Engil Africa Ltd,630000000,2022-04-29,2024-08-16,Completed
+RD-2022-0128,Eldoret-Webuye Junction Improvement,Migori,Kundan Singh Construction,2458000000,2022-09-07,2023-08-14,Stalled
+RD-2022-0131,Thika-Kenol Link Road,Narok,Nyakinywa Construction Ltd,1333000000,2022-09-15,2023-08-29,Ongoing
+RD-2022-0142,Homa Bay-Rongo Bridge Construction,Uasin Gishu,Sinohydro Corporation,3967000000,2022-06-28,2024-10-26,Awarded (Not Started)
+RD-2022-0145,Nyahururu-Nyeri Dual Carriageway Expansion,Nairobi,Great Wall Engineering,2099000000,2022-07-26,2024-08-15,Ongoing
+RD-2022-0146,Eldoret-Webuye Dual Carriageway Expansion,Nakuru,Ostwal Investments,2320000000,2022-08-13,2023-06-13,Completed
+RD-2022-0148,Mai Mahiu-Narok Feeder Road,Vihiga,China Wu Yi Co Ltd,4430000000,2022-08-04,2024-07-19,Ongoing
+RD-2022-0151,Kapenguria-Lodwar Bridge Construction,Kilifi,Colas Kenya,959000000,2022-11-18,2024-03-03,Completed
+RD-2022-0154,Eldoret-Webuye Bridge Construction,Nyandarua,Colas Kenya,173000000,2022-06-20,2024-10-16,Completed
+RD-2022-0155,Kitale-Suam Bridge Construction,Kirinyaga,Ostwal Investments,1889000000,2022-03-25,2023-02-04,Completed
+RD-2022-0162,Thika-Kenol Access Road,Wajir,China Overseas Engineering,208000000,2022-05-08,2023-06-03,Ongoing
+RD-2022-0169,Mombasa-Mariakani Dual Carriageway Expansion,Nyeri,Cabra International,3023000000,2022-09-24,2023-12-15,Completed
+RD-2022-0170,Thika-Kenol Feeder Road,Uasin Gishu,Mota-Engil Africa,212000000,2022-06-19,2024-07-04,Under Procurement
+RD-2022-0175,Mai Mahiu-Narok Feeder Road,Marsabit,China Overseas Engineering,4392000000,2022-01-06,2023-11-25,Ongoing
+RD-2022-0178,Isebania-Migori Highway Upgrade,Kwale,Balgobind Enterprises,710000000,2022-09-05,2023-08-17,Completed
+RD-2022-0180,Nyahururu-Nyeri Dual Carriageway Expansion,Kwale,Kensa Engineering,1948000000,2022-12-30,2025-01-14,Under Procurement
+RD-2022-0185,Marsabit-Moyale Access Road,Kiambu,Ammoun Company,3686000000,2022-11-17,2024-07-29,Awarded (Not Started)
+RD-2022-0186,Chuka-Nkubu Junction Improvement,Tharaka-Nithi,Reynolds Construction,3342000000,2022-10-16,2024-02-06,Stalled
+RD-2022-0192,Garissa-Modogashe Link Road,Uasin Gishu,MOTA-ENGIL AFRICA,2933000000,2022-10-01,2024-03-15,Completed
+RD-2022-0196,Marsabit-Moyale Access Road,Samburu,Colas Kenya,1015000000,2022-12-14,2024-06-06,Awarded (Not Started)
+RD-2022-0197,Voi-Taveta Junction Improvement,Taita Taveta,Kirinyaga Engineering Works,2034000000,2022-09-18,2023-07-14,Ongoing
+RD-2022-0216,Kapenguria-Lodwar Link Road,Lamu,Sinohydro Corporation,2227000000,2022-03-18,2022-10-24,Under Procurement
+RD-2022-0224,Thika-Kenol Access Road,Kajiado,KUNDAN SINGH CONSTRUCTION,3890000000,2022-02-08,2023-12-13,Ongoing
+RD-2022-0228,Garissa-Modogashe Bypass,Trans Nzoia,Bhogal Contractors,1150000000,2022-04-30,2023-08-21,Ongoing
+RD-2022-0236,Mombasa-Mariakani Junction Improvement,Kwale,Kensa Engineering,4050000000,2022-12-06,2025-01-03,Completed
+RD-2022-0248,Bomet-Sotik Bridge Construction,Bomet,Zakhem International,2516000000,2022-05-02,2023-02-04,Ongoing
+RD-2022-0250,Nyahururu-Nyeri Link Road,Nakuru,Cabra International,,2022-01-14,2023-07-27,Awarded (Not Started)
+RD-2022-0258,Voi-Taveta Bridge Construction,Kitui,Southern Engineering Co,2708000000,2022-07-06,2024-03-03,Stalled
+RD-2022-0262,Isebania-Migori Feeder Road,Kakamega,China Road and Bridge Corp,1773000000,2022-07-06,2024-10-30,Completed
+RD-2022-0267,Kericho-Sotik Bridge Construction,Laikipia,Reynolds Construction,1563000000,2022-08-25,2023-05-31,Completed
+RD-2022-0274,Kapenguria-Lodwar Feeder Road,Trans Nzoia,China Road and Bridge Corp,1154000000,2022-09-03,2022-09-27,Completed
+RD-2022-0291,Athi River-Namanga Feeder Road,Samburu,Spencon Services,3339000000,2022-12-04,2024-03-29,Completed
+RD-2022-0300,Eldoret-Webuye Junction Improvement,Embu,Ostwal Investments,2484000000,2022-03-24,2024-06-14,Completed
+RD-2022-0306,Kapenguria-Lodwar Dual Carriageway Expansion,Homa Bay,Reynolds Construction,4450000000,2022-03-27,2023-02-09,Stalled
+RD-2022-0309,Bomet-Sotik Dual Carriageway Expansion,Tana River,Cabra International,679000000,2022-08-19,2025-01-02,Ongoing
+RD-2022-0310,Mai Mahiu-Narok Link Road,Kisumu,Zakhem International,651000000,2022-02-01,2023-06-21,Completed
+RD-2022-0311,Eldoret-Webuye Feeder Road,Mombasa,China Road and Bridge Corp,3652000000,2022-07-21,2024-01-20,Ongoing
+RD-2022-0312,Kitale-Suam Highway Upgrade,Bomet,China Overseas Engineering,751000000,2022-07-29,2023-06-17,Awarded (Not Started)
+RD-2022-0320,Homa Bay-Rongo Highway Upgrade,Kilifi,China Wu Yi Co Ltd,,2022-06-13,2023-06-12,Completed
+RD-2022-0322,Eldoret-Webuye Dual Carriageway Expansion,Migori,China Overseas Engineering,643000000,2022-04-16,2023-04-11,Completed
+RD-2022-0340,Nyahururu-Nyeri Dual Carriageway Expansion,Kakamega,REYNOLDS CONSTRUCTION,4267000000,2022-07-28,2024-03-06,Ongoing
+RD-2022-0350,Nyahururu-Nyeri Highway Upgrade,Garissa,Kundan Singh Construction,3273000000,2022-09-26,2023-11-14,Ongoing
+RD-2022-0364,Malaba-Kisumu Junction Improvement,Kakamega,AMMOUN COMPANY,,2022-07-18,2024-09-18,Under Procurement
+RD-2022-0373,Wote-Machakos Access Road,Nandi,Sinohydro Corporation,363000000,2022-08-06,2024-10-04,Ongoing
+RD-2022-0377,Marsabit-Moyale Bypass,Kitui,BALGOBIND ENTERPRISES,523000000,2022-09-17,2024-09-02,Ongoing
+RD-2022-0381,Wote-Machakos Highway Upgrade,Busia,Southern Engineering Co,447000000,2022-04-24,2023-05-13,Stalled
+RD-2022-0386,Kapenguria-Lodwar Bypass,Bomet,China Road and Bridge Corp,4416000000,2022-09-17,2024-02-20,Completed
+RD-2022-0387,Nyahururu-Nyeri Access Road,Tana River,SINOHYDRO CORPORATION,2375000000,2022-04-07,2023-08-03,Ongoing
+RD-2022-0397,Bomet-Sotik Highway Upgrade,Vihiga,Balgobind Enterprises,3467000000,2022-10-25,2024-07-27,Ongoing
+RD-2022-0399,Mombasa-Mariakani Access Road,Isiolo,China Wu Yi Co Ltd,1479000000,2022-11-18,2024-12-16,Awarded (Not Started)
+RD-2022-0404,Kericho-Sotik Bypass,Vihiga,Kundan Singh Construction,2531000000,2022-10-24,2024-05-03,Awarded (Not Started)
+RD-2022-0406,Marsabit-Moyale Bridge Construction,Laikipia,Bhogal Contractors,2672000000,2022-06-16,2024-06-03,Completed
+RD-2022-0419,Marsabit-Moyale Dual Carriageway Expansion,Nyamira,China Overseas Engineering,2993000000,2022-10-02,2024-03-05,Awarded (Not Started)
+RD-2022-0423,Bomet-Sotik Dual Carriageway Expansion,Kirinyaga,Balgobind Enterprises,3466000000,2022-05-04,2024-07-27,Ongoing
+RD-2022-0425,Bomet-Sotik Link Road,Murang'a,Southern Engineering Co,1523000000,2022-09-23,2024-05-10,Ongoing
+RD-2022-0430,Mombasa-Mariakani Junction Improvement,Bomet,Bhogal Contractors,1343000000,2022-08-14,2024-12-27,Ongoing
+RD-2022-0434,Wote-Machakos Link Road,Nyandarua,Nyakinywa Construction,804000000,2022-05-18,2024-11-03,Stalled
+RD-2022-0437,Nyahururu-Nyeri Highway Upgrade,Nyandarua,China Overseas Engineering Ltd,2381000000,2022-07-18,2023-10-04,Ongoing
+RD-2022-0440,Malaba-Kisumu Dual Carriageway Expansion,Tana River,Balgobind Enterprises,3981000000,2022-10-09,2024-07-08,Stalled
+RD-2022-0447,Mombasa-Mariakani Access Road,Tana River,Ammoun Company,572000000,2022-06-13,2023-07-09,Ongoing
+RD-2022-0453,Chuka-Nkubu Dual Carriageway Expansion,Kirinyaga,Sinohydro Corporation,383000000,2022-11-26,2023-07-21,Ongoing
+RD-2022-0455,Voi-Taveta Bypass,Kisumu,Reynolds Construction,489000000,2022-09-22,2023-06-28,Completed
+RD-2022-0458,Chuka-Nkubu Link Road,Kwale,Sinohydro Corporation,139000000,2022-01-03,2022-10-01,Stalled
+RD-2022-0475,Kericho-Sotik Bridge Construction,Murang'a,Nyakinywa Construction,3544000000,2022-07-22,2023-03-14,Ongoing
+RD-2022-0480,Voi-Taveta Bridge Construction,Kakamega,Reynolds Construction,2209000000,2022-04-10,2024-02-14,Completed
+RD-2022-0481,Malaba-Kisumu Highway Upgrade,Nyeri,MOTA-ENGIL AFRICA,1400000000,2022-05-03,2023-02-26,Ongoing
+RD-2022-0483,Eldoret-Webuye Highway Upgrade,Baringo,Sinohydro Corporation,4236000000,2022-11-10,2025-01-03,Stalled
+RD-2022-0486,Garissa-Modogashe Access Road,Nandi,Great Wall Engineering,4097000000,2022-10-13,2024-12-18,Stalled
+RD-2022-0487,Mombasa-Mariakani Junction Improvement,West Pokot,Sinohydro Corporation,2411000000,2022-12-08,2024-05-30,Ongoing
+RD-2022-0494,Marsabit-Moyale Highway Upgrade,Garissa,Cabra International,2722000000,2022-10-10,2025-03-09,Awarded (Not Started)
+RD-2022-0509,Kapsabet-Chavakali Dual Carriageway Expansion,Lamu,Southern Engineering Co,1734000000,2022-08-25,2024-12-29,Completed
+RD-2022-0513,Eldoret-Webuye Access Road,Kwale,Kirinyaga Engineering Works,3587000000,2022-12-08,2024-06-05,Completed
+RD-2022-0515,Eldoret-Webuye Access Road,Kwale,Colas Kenya,3277000000,2022-10-23,2024-11-27,Ongoing
+RD-2022-0518,Kapsabet-Chavakali Dual Carriageway Expansion,Kakamega,Bhogal Contractors,1798000000,2022-12-13,2023-08-28,Stalled
+RD-2022-0535,Chuka-Nkubu Link Road,Baringo,CHINA ROAD AND BRIDGE CORP,1744000000,2022-01-26,2023-04-23,Ongoing
+RD-2022-0538,Kitale-Suam Bypass,Lamu,China Wu Yi Co Ltd,2806000000,2022-04-26,2024-02-17,Under Procurement
+RD-2022-0539,Kapenguria-Lodwar Bridge Construction,Kilifi,Nyakinywa Construction,3200000000,2022-09-12,2024-04-18,Stalled
+RD-2022-0540,Eldoret-Webuye Dual Carriageway Expansion,Nakuru,MOTA-ENGIL AFRICA,814000000,2022-10-12,2024-04-10,Completed
+RD-2022-0542,Thika-Kenol Feeder Road,Nandi,Mota-Engil Africa,527000000,2022-04-16,2023-04-18,Ongoing
+RD-2022-0545,Kitale-Suam Access Road,Migori,Ostwal Investments,948000000,2022-10-25,2023-09-27,Ongoing
+RD-2022-0546,Kapenguria-Lodwar Junction Improvement,Homa Bay,China Wu Yi Co Ltd,3791000000,2022-10-28,2024-11-28,Ongoing
+RD-2022-0547,Marsabit-Moyale Access Road,Bomet,Kundan Singh Construction,3347000000,2022-06-07,2023-06-04,Ongoing
+RD-2022-0550,Athi River-Namanga Link Road,Siaya,China Wu Yi Co Ltd,4285000000,2022-12-01,2024-09-15,Stalled
+RD-2022-0561,Kericho-Sotik Dual Carriageway Expansion,Laikipia,China Road and Bridge Corp,4238000000,2022-03-26,2024-05-15,Under Procurement
+RD-2022-0563,Chuka-Nkubu Link Road,Bungoma,BHOGAL CONTRACTORS,4124000000,2022-09-14,2023-11-08,Ongoing
+RD-2022-0567,Chuka-Nkubu Link Road,Narok,Mota-Engil Africa,3059000000,2022-11-17,2023-10-04,Ongoing
+RD-2022-0575,Kilifi-Malindi Bypass,Nandi,Southern Engineering Co,2856000000,2022-04-29,2024-12-06,Completed
+RD-2022-0589,Kapenguria-Lodwar Access Road,Laikipia,China Road and Bridge Ltd,232000000,2022-07-06,2024-07-22,Under Procurement
+RD-2022-0593,Eldoret-Webuye Bridge Construction,Murang'a,Southern Engineering Co,2316000000,2022-05-19,2024-09-23,Under Procurement
+RD-2022-0609,Isebania-Migori Feeder Road,Tharaka-Nithi,Kundan Singh Construction,2877000000,2022-01-23,2024-04-06,Completed
+RD-2022-0610,Kitale-Suam Dual Carriageway Expansion,Isiolo,China Wu Yi Co Ltd,4142000000,2022-03-26,2022-09-25,Stalled
+RD-2022-0612,Thika-Kenol Bypass,West Pokot,Great Wall Engineering Ltd,1700000000,2022-08-05,2023-07-29,Ongoing
+RD-2022-0623,Wote-Machakos Dual Carriageway Expansion,Bomet,Ammoun Company,783000000,2022-10-04,2023-11-10,Completed
+RD-2022-0629,Homa Bay-Rongo Feeder Road,Kirinyaga,NYAKINYWA CONSTRUCTION,3839000000,2022-07-19,2023-08-09,Ongoing
+RD-2022-0633,Athi River-Namanga Dual Carriageway Expansion,Murang'a,Reynolds Construction,2150000000,2022-03-01,2024-01-28,Ongoing
+RD-2022-0634,Isebania-Migori Access Road,Trans Nzoia,China Wu Yi Co Ltd,,2022-05-29,2023-03-22,Stalled
+RD-2022-0635,Mai Mahiu-Narok Dual Carriageway Expansion,Homa Bay,MOTA-ENGIL AFRICA,3936000000,2022-07-26,2023-07-06,Ongoing
+RD-2022-0638,Kapenguria-Lodwar Access Road,Taita Taveta,Sinohydro Corporation,199000000,2022-11-22,2023-03-12,Stalled
+RD-2022-0643,Kapsabet-Chavakali Feeder Road,Samburu,Nyakinywa Construction,188000000,2022-04-22,2022-09-11,Stalled
+RD-2022-0644,Voi-Taveta Junction Improvement,Tana River,Kensa Engineering,2509000000,2022-02-18,2023-01-19,Completed
+RD-2022-0645,Thika-Kenol Access Road,Kisumu,ZAKHEM INTERNATIONAL,274000000,2022-04-15,2023-09-16,Ongoing
+RD-2022-0646,Mai Mahiu-Narok Access Road,Kisii,Nyakinywa Construction,2714000000,2022-01-11,2023-10-05,Stalled
+RD-2022-0647,Voi-Taveta Link Road,Embu,Reynolds Construction,1754000000,2022-04-29,2024-03-28,Ongoing
+RD-2023-0005,Kilifi-Malindi Link Road,Kitui,China Road and Bridge Ltd,907000000,2023-02-18,2024-05-27,Completed
+RD-2023-0006,Bomet-Sotik Feeder Road,Isiolo,Reynolds Construction,3866000000,2023-02-17,2024-05-18,Under Procurement
+RD-2023-0010,Nyahururu-Nyeri Junction Improvement,Kericho,Kirinyaga Engineering Works,2484000000,2023-06-10,2024-05-16,Completed
+RD-2023-0021,Marsabit-Moyale Bypass,Vihiga,China Overseas Engineering,751000000,2023-05-09,2025-08-09,Completed
+RD-2023-0026,Kitale-Suam Link Road,Mombasa,Mota-Engil Africa,375000000,2023-01-27,2025-03-13,Completed
+RD-2023-0029,Mai Mahiu-Narok Feeder Road,Kirinyaga,Sinohydro Corporation,1662000000,2023-03-28,2024-08-25,Ongoing
+RD-2023-0040,Wote-Machakos Access Road,Kericho,China Wu Yi Co Ltd,1774000000,2023-05-11,2024-12-09,Under Procurement
+RD-2023-0046,Homa Bay-Rongo Bypass,Garissa,Zakhem International,3154000000,2023-03-24,2024-04-10,Ongoing
+RD-2023-0047,Kitale-Suam Bypass,Bungoma,Ostwal Investments,4444000000,2023-05-28,2025-10-01,Completed
+RD-2023-0056,Athi River-Namanga Feeder Road,Bomet,Nyakinywa Construction,3196000000,2023-07-12,2025-04-05,Ongoing
+RD-2023-0062,Eldoret-Webuye Link Road,Kiambu,Reynolds Construction,2781000000,2023-04-24,2025-09-30,Completed
+RD-2023-0063,Kapsabet-Chavakali Bypass,Trans Nzoia,Cabra International,3864000000,2023-04-27,2023-12-18,Ongoing
+RD-2023-0067,Chuka-Nkubu Highway Upgrade,Vihiga,Southern Engineering Co,4492000000,2023-09-19,2025-03-05,Ongoing
+RD-2023-0090,Mai Mahiu-Narok Access Road,Nandi,Ammoun Company,3795000000,2023-03-28,2024-11-22,Stalled
+RD-2023-0091,Garissa-Modogashe Link Road,Laikipia,KUNDAN SINGH CONSTRUCTION,843000000,2023-06-04,2024-08-03,Stalled
+RD-2023-0095,Kapenguria-Lodwar Link Road,Siaya,Nyakinywa Construction,1842000000,2023-02-10,2024-10-11,Completed
+RD-2023-0098,Chuka-Nkubu Access Road,Mombasa,Reynolds Construction,,2023-02-18,2025-02-12,Stalled
+RD-2023-0103,Eldoret-Webuye Highway Upgrade,Siaya,Southern Engineering Co,639000000,2023-08-19,2025-05-12,Stalled
+RD-2023-0105,Homa Bay-Rongo Feeder Road,Nandi,Ammoun Company,3976000000,2023-10-24,2024-09-22,Under Procurement
+RD-2023-0106,Malaba-Kisumu Bypass,Kisumu,China Road and Bridge Corp,3666000000,2023-06-19,2025-06-04,Completed
+RD-2023-0109,Kapsabet-Chavakali Link Road,Migori,Bhogal Contractors,4245000000,2023-01-12,2023-07-29,Completed
+RD-2023-0114,Kericho-Sotik Bypass,Nandi,BHOGAL CONTRACTORS,516000000,2023-03-23,2025-02-14,Completed
+RD-2023-0117,Kapsabet-Chavakali Feeder Road,Siaya,Mota-Engil Africa,2466000000,2023-05-30,2023-11-27,Stalled
+RD-2023-0129,Voi-Taveta Feeder Road,Tharaka-Nithi,Kensa Engineering,295000000,2023-01-10,2025-01-26,Completed
+RD-2023-0137,Eldoret-Webuye Feeder Road,Kakamega,Reynolds Construction,4161000000,2023-11-21,2025-09-09,Completed
+RD-2023-0144,Kapsabet-Chavakali Dual Carriageway Expansion,Uasin Gishu,China Wu Yi Co Ltd,1211000000,2023-11-29,2024-12-25,Completed
+RD-2023-0156,Marsabit-Moyale Link Road,Machakos,Nyakinywa Construction,3739000000,2023-12-18,2026-06-05,Completed
+RD-2023-0161,Kilifi-Malindi Dual Carriageway Expansion,Kwale,Cabra International,3554000000,2023-12-26,2025-07-16,Awarded (Not Started)
+RD-2023-0166,Voi-Taveta Dual Carriageway Expansion,Kirinyaga,China Wu Yi Co Ltd,3460000000,2023-05-04,2025-05-23,Completed
+RD-2023-0176,Kilifi-Malindi Link Road,Kitui,China Wu Yi Co Ltd,845000000,2023-04-11,2024-10-30,Completed
+RD-2023-0179,Garissa-Modogashe Junction Improvement,Nairobi,China Wu Yi Co Ltd,880000000,2023-06-15,2024-08-05,Awarded (Not Started)
+RD-2023-0181,Garissa-Modogashe Link Road,Machakos,Spencon Services,1343000000,2023-02-18,2025-05-27,Ongoing
+RD-2023-0182,Kitale-Suam Highway Upgrade,Nyandarua,Kundan Singh Construction,1615000000,2023-02-06,2025-03-02,Completed
+RD-2023-0191,Mai Mahiu-Narok Feeder Road,Makueni,Southern Engineering Co,3144000000,2023-03-13,2024-12-26,Awarded (Not Started)
+RD-2023-0195,Garissa-Modogashe Link Road,Nyamira,Cabra International,1611000000,2023-01-20,2024-06-16,Ongoing
+RD-2023-0198,Chuka-Nkubu Highway Upgrade,Meru,Cabra International,1446000000,2023-09-30,2025-01-17,Ongoing
+RD-2023-0208,Wote-Machakos Bypass,Siaya,Kirinyaga Engineering Works Ltd,1374000000,2023-06-23,2025-03-31,Ongoing
+RD-2023-0210,Garissa-Modogashe Link Road,Elgeyo-Marakwet,Sinohydro Corporation,1828000000,2023-04-09,2024-05-20,Ongoing
+RD-2023-0211,Voi-Taveta Dual Carriageway Expansion,Elgeyo-Marakwet,Kundan Singh Construction,1955000000,2023-02-24,2023-11-22,Stalled
+RD-2023-0214,Kilifi-Malindi Bypass,Bungoma,Zakhem International,1763000000,2023-11-27,2026-02-05,Completed
+RD-2023-0215,Marsabit-Moyale Link Road,Siaya,Nyakinywa Construction,178000000,2023-10-01,2024-05-28,Ongoing
+RD-2023-0221,Thika-Kenol Dual Carriageway Expansion,West Pokot,Colas Kenya,1447000000,2023-01-24,2023-12-31,Ongoing
+RD-2023-0222,Kapenguria-Lodwar Feeder Road,Kilifi,China Wu Yi Co Ltd,3944000000,2023-01-16,2024-10-08,Under Procurement
+RD-2023-0223,Athi River-Namanga Feeder Road,Kisumu,Ammoun Company,2113000000,2023-05-03,2024-09-21,Ongoing
+RD-2023-0227,Nyahururu-Nyeri Link Road,Nyamira,China Wu Yi Co Ltd,1976000000,2023-12-01,2025-07-25,Stalled
+RD-2023-0231,Voi-Taveta Link Road,Murang'a,China Road and Bridge Corp,2994000000,2023-03-23,2025-02-25,Ongoing
+RD-2023-0235,Marsabit-Moyale Feeder Road,Busia,Zakhem International Ltd,4166000000,2023-04-24,2025-06-05,Completed
+RD-2023-0242,Marsabit-Moyale Junction Improvement,Bomet,China Road and Bridge Ltd,1516000000,2023-02-14,2024-06-22,Stalled
+RD-2023-0245,Athi River-Namanga Highway Upgrade,Nandi,Bhogal Contractors,4119000000,2023-02-15,2024-08-07,Completed
+RD-2023-0252,Athi River-Namanga Dual Carriageway Expansion,Kajiado,Colas Kenya,2010000000,2023-09-03,2025-01-01,Ongoing
+RD-2023-0257,Mai Mahiu-Narok Bypass,Kiambu,Kensa Engineering,2280000000,2023-02-02,2023-08-21,Ongoing
+RD-2023-0263,Nyahururu-Nyeri Bridge Construction,Kitui,Spencon Services,3551000000,2023-02-11,2024-08-01,Completed
+RD-2023-0264,Bomet-Sotik Bridge Construction,West Pokot,Zakhem International,965000000,2023-09-14,2024-05-16,Ongoing
+RD-2023-0266,Kapenguria-Lodwar Dual Carriageway Expansion,Nairobi,Zakhem International,2205000000,2023-08-05,2024-12-22,Completed
+RD-2023-0268,Mai Mahiu-Narok Bridge Construction,Turkana,Bhogal Contractors,2794000000,2023-02-01,2024-04-22,Completed
+RD-2023-0269,Kitale-Suam Access Road,Narok,Nyakinywa Construction,2524000000,2023-04-27,2023-12-18,Awarded (Not Started)
+RD-2023-0270,Voi-Taveta Junction Improvement,Baringo,Reynolds Construction,742000000,2023-09-26,2025-02-27,Stalled
+RD-2023-0276,Kapsabet-Chavakali Bridge Construction,Garissa,CHINA OVERSEAS ENGINEERING,1203000000,2023-05-08,2024-02-19,Completed
+RD-2023-0280,Kericho-Sotik Junction Improvement,Taita Taveta,Reynolds Construction,1012000000,2023-04-01,2024-10-11,Under Procurement
+RD-2023-0283,Eldoret-Webuye Link Road,Homa Bay,BHOGAL CONTRACTORS,2116000000,2023-09-14,2025-01-03,Stalled
+RD-2023-0295,Kilifi-Malindi Feeder Road,Tana River,Cabra International,344000000,2023-05-01,2024-09-10,Ongoing
+RD-2023-0296,Kapsabet-Chavakali Bridge Construction,Machakos,China Wu Yi Co Ltd,3205000000,2023-03-05,2024-10-31,Under Procurement
+RD-2023-0314,Kilifi-Malindi Highway Upgrade,Vihiga,Southern Engineering Co,4185000000,2023-12-11,2024-08-10,Completed
+RD-2023-0317,Homa Bay-Rongo Highway Upgrade,Kericho,Balgobind Enterprises,3180000000,2023-01-19,2025-03-10,Stalled
+RD-2023-0318,Kericho-Sotik Dual Carriageway Expansion,Turkana,Kensa Engineering Ltd,134000000,2023-10-25,2024-11-09,Completed
+RD-2023-0321,Chuka-Nkubu Dual Carriageway Expansion,Bungoma,Reynolds Construction,1877000000,2023-04-22,2025-06-25,Ongoing
+RD-2023-0326,Homa Bay-Rongo Link Road,Mombasa,Nyakinywa Construction,138000000,2023-02-08,2025-07-06,Ongoing
+RD-2023-0329,Malaba-Kisumu Link Road,Kisii,Great Wall Engineering,4244000000,2023-04-01,2024-08-09,Awarded (Not Started)
+RD-2023-0334,Homa Bay-Rongo Bypass,Trans Nzoia,Spencon Services,1513000000,2023-04-14,2025-03-12,Ongoing
+RD-2023-0336,Chuka-Nkubu Link Road,Kwale,Spencon Services,633000000,2023-02-23,2025-05-31,Awarded (Not Started)
+RD-2023-0345,Isebania-Migori Bridge Construction,Tana River,Kensa Engineering,868000000,2023-07-11,2024-12-14,Ongoing
+RD-2023-0348,Wote-Machakos Junction Improvement,Nyandarua,COLAS KENYA,4347000000,2023-07-12,2025-06-03,Ongoing
+RD-2023-0355,Nyahururu-Nyeri Bridge Construction,Busia,Cabra International,2282000000,2023-04-26,2024-05-02,Awarded (Not Started)
+RD-2023-0357,Mai Mahiu-Narok Link Road,Mombasa,Mota-Engil Africa,200000000,2023-10-08,2024-11-13,Ongoing
+RD-2023-0369,Thika-Kenol Junction Improvement,Siaya,CABRA INTERNATIONAL,3487000000,2023-01-26,2023-09-22,Awarded (Not Started)
+RD-2023-0370,Kitale-Suam Link Road,Kajiado,China Road and Bridge Corp,4435000000,2023-01-03,2024-09-03,Ongoing
+RD-2023-0380,Homa Bay-Rongo Link Road,Migori,Kirinyaga Engineering Works,3468000000,2023-05-18,2024-11-22,Ongoing
+RD-2023-0388,Mai Mahiu-Narok Access Road,Siaya,China Road and Bridge Corp,1331000000,2023-05-24,2024-10-04,Under Procurement
+RD-2023-0389,Voi-Taveta Bridge Construction,Tharaka-Nithi,Nyakinywa Construction Ltd,1187000000,2023-05-31,2024-04-23,Stalled
+RD-2023-0390,Eldoret-Webuye Highway Upgrade,Meru,Sinohydro Corporation,2690000000,2023-04-28,2024-12-19,Ongoing
+RD-2023-0395,Kapsabet-Chavakali Access Road,Machakos,China Wu Yi Co Ltd,3253000000,2023-11-24,2026-02-26,Under Procurement
+RD-2023-0405,Nyahururu-Nyeri Junction Improvement,Wajir,NYAKINYWA CONSTRUCTION,3469000000,2023-11-12,2025-01-08,Stalled
+RD-2023-0410,Voi-Taveta Dual Carriageway Expansion,Laikipia,Cabra International,2825000000,2023-06-08,2025-03-31,Under Procurement
+RD-2023-0435,Thika-Kenol Junction Improvement,Busia,Cabra International,168000000,2023-08-19,2025-05-24,Completed
+RD-2023-0445,Kitale-Suam Link Road,Nyamira,China Overseas Engineering,1144000000,2023-02-09,2025-06-10,Awarded (Not Started)
+RD-2023-0448,Voi-Taveta Access Road,Garissa,Great Wall Engineering,950000000,2023-06-24,2024-09-11,Ongoing
+RD-2023-0457,Malaba-Kisumu Junction Improvement,Uasin Gishu,CABRA INTERNATIONAL,,2023-06-18,2024-08-20,Under Procurement
+RD-2023-0459,Isebania-Migori Highway Upgrade,Mandera,Spencon Services,4365000000,2023-12-07,2025-04-03,Ongoing
+RD-2023-0462,Thika-Kenol Junction Improvement,Kilifi,Zakhem International,1796000000,2023-10-06,2024-08-20,Ongoing
+RD-2023-0467,Bomet-Sotik Feeder Road,Kakamega,Kundan Singh Construction,3452000000,2023-12-05,2025-10-15,Awarded (Not Started)
+RD-2023-0469,Thika-Kenol Access Road,Narok,Nyakinywa Construction Ltd,3310000000,2023-09-09,2026-02-18,Awarded (Not Started)
+RD-2023-0473,Thika-Kenol Link Road,West Pokot,Balgobind Enterprises,3074000000,2023-12-08,2025-11-02,Ongoing
+RD-2023-0478,Athi River-Namanga Highway Upgrade,Nyeri,Kensa Engineering Ltd,2920000000,2023-05-11,2025-02-03,Stalled
+RD-2023-0482,Eldoret-Webuye Junction Improvement,Kilifi,MOTA-ENGIL AFRICA,3134000000,2023-07-08,2025-07-09,Under Procurement
+RD-2023-0489,Garissa-Modogashe Access Road,Kiambu,Kundan Singh Construction,134000000,2023-04-19,2025-07-31,Under Procurement
+RD-2023-0491,Kilifi-Malindi Dual Carriageway Expansion,Makueni,Kirinyaga Engineering Works,2436000000,2023-05-05,2024-02-05,Completed
+RD-2023-0495,Kapenguria-Lodwar Highway Upgrade,Marsabit,Nyakinywa Construction Ltd,2385000000,2023-02-03,2024-12-10,Completed
+RD-2023-0502,Kitale-Suam Highway Upgrade,Migori,OSTWAL INVESTMENTS,3189000000,2023-05-19,2024-06-21,Completed
+RD-2023-0506,Marsabit-Moyale Access Road,Tharaka-Nithi,Kirinyaga Engineering Works,1987000000,2023-05-20,2025-10-04,Ongoing
+RD-2023-0507,Kericho-Sotik Dual Carriageway Expansion,Trans Nzoia,CHINA OVERSEAS ENGINEERING,3393000000,2023-09-20,2025-08-23,Ongoing
+RD-2023-0508,Kapenguria-Lodwar Link Road,Mandera,China Wu Yi Co Ltd,638000000,2023-10-18,2026-10-03,Ongoing
+RD-2023-0510,Mombasa-Mariakani Dual Carriageway Expansion,Wajir,Ammoun Company,3162000000,2023-06-26,2025-04-06,Ongoing
+RD-2023-0516,Eldoret-Webuye Highway Upgrade,Homa Bay,China Overseas Engineering,2533000000,2023-01-15,2024-10-02,Ongoing
+RD-2023-0520,Nyahururu-Nyeri Access Road,Baringo,Colas Kenya,570000000,2023-12-06,2024-12-25,Completed
+RD-2023-0522,Wote-Machakos Dual Carriageway Expansion,Kirinyaga,Cabra International,3652000000,2023-05-15,2025-09-03,Under Procurement
+RD-2023-0526,Wote-Machakos Access Road,Nyandarua,Spencon Services,538000000,2023-10-02,2025-09-27,Completed
+RD-2023-0528,Kericho-Sotik Link Road,Siaya,Cabra International,2016000000,2023-06-26,2025-01-23,Ongoing
+RD-2023-0532,Voi-Taveta Access Road,Kajiado,Ammoun Company,,2023-09-07,2024-07-19,Ongoing
+RD-2023-0541,Nyahururu-Nyeri Bridge Construction,Nyeri,Nyakinywa Construction,2644000000,2023-06-12,2024-05-25,Ongoing
+RD-2023-0543,Wote-Machakos Junction Improvement,Kilifi,CABRA INTERNATIONAL,4054000000,2023-07-27,2025-06-10,Ongoing
+RD-2023-0548,Kilifi-Malindi Highway Upgrade,Trans Nzoia,Kirinyaga Engineering Works,2525000000,2023-10-03,2025-06-16,Stalled
+RD-2023-0549,Kapsabet-Chavakali Feeder Road,West Pokot,KENSA ENGINEERING,3729000000,2023-03-06,2025-01-01,Ongoing
+RD-2023-0559,Bomet-Sotik Bridge Construction,Bungoma,China Wu Yi Co Ltd,4073000000,2023-03-30,2025-02-04,Completed
+RD-2023-0566,Marsabit-Moyale Link Road,Busia,Cabra International Ltd,423000000,2023-05-11,2024-08-18,Ongoing
+RD-2023-0573,Bomet-Sotik Bridge Construction,Kajiado,Great Wall Engineering,840000000,2023-11-14,2025-11-28,Ongoing
+RD-2023-0577,Chuka-Nkubu Feeder Road,Mandera,Southern Engineering Co,719000000,2023-01-27,2025-06-18,Completed
+RD-2023-0585,Wote-Machakos Link Road,Vihiga,CABRA INTERNATIONAL,2704000000,2023-04-03,2025-05-25,Ongoing
+RD-2023-0588,Thika-Kenol Feeder Road,Wajir,CHINA ROAD AND BRIDGE CORP,2017000000,2023-10-07,2025-09-06,Awarded (Not Started)
+RD-2023-0591,Kilifi-Malindi Highway Upgrade,Busia,Sinohydro Corporation,572000000,2023-09-15,2024-12-17,Completed
+RD-2023-0592,Homa Bay-Rongo Link Road,Kericho,Zakhem International,814000000,2023-03-21,2025-01-09,Ongoing
+RD-2023-0600,Kitale-Suam Dual Carriageway Expansion,Nyandarua,Kensa Engineering,3041000000,2023-11-26,2024-07-07,Awarded (Not Started)
+RD-2023-0605,Kitale-Suam Access Road,Trans Nzoia,China Road and Bridge Corp,166000000,2023-07-18,2025-02-10,Completed
+RD-2023-0613,Nyahururu-Nyeri Link Road,Meru,Sinohydro Corporation,1204000000,2023-02-16,2025-06-15,Awarded (Not Started)
+RD-2023-0619,Eldoret-Webuye Access Road,Busia,Southern Engineering Co Ltd,3910000000,2023-05-06,2025-01-23,Completed
+RD-2023-0624,Chuka-Nkubu Junction Improvement,Mombasa,Ammoun Company,1927000000,2023-05-09,2025-01-13,Stalled
+RD-2023-0625,Voi-Taveta Highway Upgrade,Kilifi,Ammoun Company,3282000000,2023-02-20,2024-03-15,Under Procurement
+RD-2023-0628,Kitale-Suam Highway Upgrade,Isiolo,Cabra International Ltd,3507000000,2023-07-09,2024-05-14,Completed
+RD-2023-0632,Bomet-Sotik Bridge Construction,Siaya,Kundan Singh Construction,1859000000,2023-10-08,2025-05-31,Under Procurement
+RD-2023-0636,Kapenguria-Lodwar Bridge Construction,Lamu,Mota-Engil Africa,3689000000,2023-04-01,2024-01-01,Ongoing
+RD-2024-0004,Bomet-Sotik Link Road,Baringo,Balgobind Enterprises,725000000,2024-05-02,2025-05-30,Awarded (Not Started)
+RD-2024-0009,Kitale-Suam Highway Upgrade,Tana River,Reynolds Construction,3538000000,2024-05-06,2025-06-01,Completed
+RD-2024-0024,Bomet-Sotik Highway Upgrade,Garissa,Spencon Services,2388000000,2024-05-23,2025-06-22,Stalled
+RD-2024-0027,Kitale-Suam Junction Improvement,Machakos,Cabra International Ltd,3409000000,2024-06-25,2025-05-29,Under Procurement
+RD-2024-0032,Isebania-Migori Junction Improvement,Homa Bay,BHOGAL CONTRACTORS,653000000,2024-09-22,2026-02-22,Stalled
+RD-2024-0039,Mai Mahiu-Narok Bridge Construction,Nyeri,Ammoun Company,2699000000,2024-01-12,2024-09-30,Ongoing
+RD-2024-0041,Kericho-Sotik Bridge Construction,Mombasa,Balgobind Enterprises,3512000000,2024-01-08,2026-01-16,Awarded (Not Started)
+RD-2024-0042,Mombasa-Mariakani Highway Upgrade,Homa Bay,Southern Engineering Co,1125000000,2024-06-28,2026-06-24,Ongoing
+RD-2024-0048,Voi-Taveta Access Road,Baringo,Reynolds Construction,4354000000,2024-08-25,2025-11-24,Stalled
+RD-2024-0051,Garissa-Modogashe Bridge Construction,Kwale,China Road and Bridge Corp,3392000000,2024-11-17,2026-01-20,Ongoing
+RD-2024-0053,Chuka-Nkubu Bridge Construction,Embu,Colas Kenya,4377000000,2024-05-07,2025-08-19,Under Procurement
+RD-2024-0054,Nyahururu-Nyeri Bypass,Mandera,CHINA WU YI CO LTD,2473000000,2024-11-29,2025-10-04,Stalled
+RD-2024-0058,Kilifi-Malindi Bridge Construction,Kitui,Southern Engineering Co,663000000,2024-11-08,2026-01-01,Under Procurement
+RD-2024-0060,Kilifi-Malindi Access Road,Kisii,Spencon Services,4179000000,2024-01-11,2025-11-26,Completed
+RD-2024-0065,Mai Mahiu-Narok Link Road,Taita Taveta,Southern Engineering Co,1042000000,2024-08-19,2025-07-22,Completed
+RD-2024-0069,Chuka-Nkubu Bypass,Marsabit,Mota-Engil Africa,4194000000,2024-04-23,2025-09-24,Awarded (Not Started)
+RD-2024-0073,Malaba-Kisumu Highway Upgrade,Migori,Reynolds Construction,726000000,2024-06-02,2025-12-25,Stalled
+RD-2024-0076,Marsabit-Moyale Dual Carriageway Expansion,Tana River,Zakhem International,1965000000,2024-05-28,2025-11-19,Ongoing
+RD-2024-0080,Kapenguria-Lodwar Junction Improvement,Laikipia,China Overseas Engineering,1893000000,2024-08-19,2025-04-20,Stalled
+RD-2024-0082,Voi-Taveta Access Road,Nairobi,Kirinyaga Engineering Works,4088000000,2024-06-14,2026-02-01,Under Procurement
+RD-2024-0087,Kitale-Suam Dual Carriageway Expansion,Vihiga,Nyakinywa Construction,1894000000,2024-06-13,2025-01-23,Stalled
+RD-2024-0088,Mombasa-Mariakani Access Road,Laikipia,Kirinyaga Engineering Works,4096000000,2024-12-29,2026-09-24,Ongoing
+RD-2024-0094,Nyahururu-Nyeri Bypass,Homa Bay,Reynolds Construction Ltd,2318000000,2024-10-12,2026-04-20,Under Procurement
+RD-2024-0096,Thika-Kenol Link Road,Busia,Spencon Services,3709000000,2024-09-17,2026-05-24,Completed
+RD-2024-0097,Kilifi-Malindi Bypass,Kajiado,China Road and Bridge Ltd,3317000000,2024-05-12,2025-01-03,Ongoing
+RD-2024-0104,Thika-Kenol Junction Improvement,Kilifi,Zakhem International,708000000,2024-08-13,2025-05-12,Stalled
+RD-2024-0108,Kericho-Sotik Bridge Construction,Marsabit,Balgobind Enterprises,1136000000,2024-03-05,2025-01-24,Ongoing
+RD-2024-0110,Kapsabet-Chavakali Bypass,Garissa,Ammoun Company,1153000000,2024-05-08,2025-11-24,Ongoing
+RD-2024-0111,Athi River-Namanga Junction Improvement,Kilifi,China Road and Bridge Ltd,3718000000,2024-06-04,2025-09-18,Awarded (Not Started)
+RD-2024-0121,Isebania-Migori Bridge Construction,Kilifi,Ostwal Investments,471000000,2024-09-04,2026-02-05,Ongoing
+RD-2024-0123,Eldoret-Webuye Link Road,Nyeri,Kundan Singh Construction,,2024-09-15,2026-01-10,Ongoing
+RD-2024-0126,Kapsabet-Chavakali Junction Improvement,Mandera,Balgobind Enterprises,2655000000,2024-08-23,2025-01-12,Ongoing
+RD-2024-0127,Nyahururu-Nyeri Dual Carriageway Expansion,Makueni,GREAT WALL ENGINEERING,2419000000,2024-11-22,2026-10-05,Ongoing
+RD-2024-0130,Athi River-Namanga Link Road,Uasin Gishu,Mota-Engil Africa,2677000000,2024-08-08,2025-04-20,Completed
+RD-2024-0134,Kapenguria-Lodwar Dual Carriageway Expansion,Siaya,Cabra International,2452000000,2024-08-07,2025-12-09,Completed
+RD-2024-0140,Bomet-Sotik Junction Improvement,Kiambu,Mota-Engil Africa,1710000000,2024-05-18,2026-04-19,Completed
+RD-2024-0141,Marsabit-Moyale Junction Improvement,Murang'a,Reynolds Construction,3299000000,2024-06-16,2025-10-15,Completed
+RD-2024-0149,Malaba-Kisumu Access Road,Bomet,Kensa Engineering,3991000000,2024-08-25,2025-09-13,Awarded (Not Started)
+RD-2024-0153,Kapsabet-Chavakali Junction Improvement,Elgeyo-Marakwet,Kundan Singh Construction,3363000000,2024-10-02,2025-07-06,Ongoing
+RD-2024-0160,Mombasa-Mariakani Link Road,Samburu,Cabra International,1169000000,2024-08-31,2026-02-18,Ongoing
+RD-2024-0164,Eldoret-Webuye Feeder Road,Migori,ZAKHEM INTERNATIONAL,1253000000,2024-09-14,2026-08-28,Ongoing
+RD-2024-0165,Athi River-Namanga Dual Carriageway Expansion,Siaya,CHINA WU YI CO LTD,2901000000,2024-08-10,2026-12-25,Completed
+RD-2024-0173,Kapsabet-Chavakali Dual Carriageway Expansion,Embu,Ostwal Investments,575000000,2024-06-19,2026-09-30,Stalled
+RD-2024-0177,Kapsabet-Chavakali Bypass,Garissa,China Road and Bridge Corp,1811000000,2024-11-18,2026-12-18,Completed
+RD-2024-0183,Athi River-Namanga Access Road,Nyeri,KUNDAN SINGH CONSTRUCTION,2068000000,2024-03-17,2026-02-28,Ongoing
+RD-2024-0187,Kericho-Sotik Link Road,Trans Nzoia,COLAS KENYA,1716000000,2024-04-27,2026-05-05,Ongoing
+RD-2024-0188,Garissa-Modogashe Access Road,Nyeri,Kensa Engineering,1220000000,2024-07-21,2025-11-23,Ongoing
+RD-2024-0189,Homa Bay-Rongo Access Road,Laikipia,Cabra International,,2024-11-17,2026-07-18,Completed
+RD-2024-0190,Kericho-Sotik Highway Upgrade,Homa Bay,China Overseas Engineering,442000000,2024-02-28,2026-06-17,Stalled
+RD-2024-0193,Kitale-Suam Bypass,Nyamira,Ammoun Company,975000000,2024-10-18,2025-10-01,Under Procurement
+RD-2024-0194,Mai Mahiu-Narok Access Road,Baringo,Reynolds Construction,1606000000,2024-08-04,2026-12-05,Completed
+RD-2024-0199,Isebania-Migori Access Road,Mandera,Cabra International,4220000000,2024-08-30,2026-07-17,Completed
+RD-2024-0200,Mai Mahiu-Narok Bridge Construction,Nyandarua,Reynolds Construction,3826000000,2024-03-04,2026-01-20,Completed
+RD-2024-0202,Kitale-Suam Feeder Road,Nandi,GREAT WALL ENGINEERING,2952000000,2024-12-26,2027-03-10,Stalled
+RD-2024-0204,Voi-Taveta Access Road,Garissa,CHINA WU YI CO LTD,2351000000,2024-09-05,2025-07-11,Stalled
+RD-2024-0205,Chuka-Nkubu Highway Upgrade,Trans Nzoia,COLAS KENYA,2281000000,2024-07-09,2026-03-05,Completed
+RD-2024-0206,Eldoret-Webuye Bypass,Nakuru,Kundan Singh Construction,3835000000,2024-07-24,2026-12-01,Stalled
+RD-2024-0207,Nyahururu-Nyeri Junction Improvement,Nakuru,Zakhem International,2846000000,2024-01-26,2026-03-07,Ongoing
+RD-2024-0212,Voi-Taveta Link Road,Mandera,Nyakinywa Construction Ltd,149000000,2024-06-03,2026-09-26,Ongoing
+RD-2024-0217,Mombasa-Mariakani Link Road,Elgeyo-Marakwet,Cabra International,4484000000,2024-06-15,2025-05-17,Ongoing
+RD-2024-0219,Malaba-Kisumu Link Road,Homa Bay,Sinohydro Corporation,1204000000,2024-07-12,2025-06-16,Ongoing
+RD-2024-0247,Marsabit-Moyale Dual Carriageway Expansion,Kiambu,SINOHYDRO CORPORATION,3613000000,2024-08-31,2025-08-14,Stalled
+RD-2024-0255,Kitale-Suam Access Road,Uasin Gishu,Mota-Engil Africa,1294000000,2024-03-06,2026-04-27,Completed
+RD-2024-0272,Kapsabet-Chavakali Feeder Road,Murang'a,Sinohydro Corporation,113000000,2024-07-07,2025-09-14,Ongoing
+RD-2024-0275,Thika-Kenol Link Road,Bungoma,Sinohydro Corporation,475000000,2024-11-13,2025-09-07,Completed
+RD-2024-0278,Garissa-Modogashe Link Road,Marsabit,KIRINYAGA ENGINEERING WORKS,2176000000,2024-08-12,2025-10-02,Completed
+RD-2024-0286,Marsabit-Moyale Bridge Construction,Bungoma,Nyakinywa Construction Ltd,1774000000,2024-02-09,2027-01-17,Completed
+RD-2024-0289,Eldoret-Webuye Link Road,Tharaka-Nithi,Bhogal Contractors,460000000,2024-07-20,2026-12-05,Completed
+RD-2024-0290,Athi River-Namanga Dual Carriageway Expansion,Bomet,NYAKINYWA CONSTRUCTION,1531000000,2024-11-17,2026-12-29,Ongoing
+RD-2024-0292,Isebania-Migori Feeder Road,Bomet,Great Wall Engineering,2460000000,2024-11-07,2026-04-24,Under Procurement
+RD-2024-0293,Eldoret-Webuye Link Road,Siaya,Ostwal Investments,4015000000,2024-04-08,2026-05-12,Under Procurement
+RD-2024-0303,Athi River-Namanga Link Road,Embu,Great Wall Engineering,4485000000,2024-12-10,2026-08-27,Stalled
+RD-2024-0304,Garissa-Modogashe Bypass,Taita Taveta,Reynolds Construction,2143000000,2024-02-17,2024-10-26,Completed
+RD-2024-0305,Marsabit-Moyale Link Road,Mombasa,Colas Kenya,452000000,2024-12-06,2025-08-17,Completed
+RD-2024-0319,Athi River-Namanga Junction Improvement,Kitui,KIRINYAGA ENGINEERING WORKS,4024000000,2024-10-14,2026-08-15,Completed
+RD-2024-0324,Athi River-Namanga Access Road,Migori,Ostwal Investments,435000000,2024-11-29,2026-11-21,Completed
+RD-2024-0327,Bomet-Sotik Access Road,Makueni,Colas Kenya Ltd,3075000000,2024-07-06,2025-09-12,Under Procurement
+RD-2024-0328,Bomet-Sotik Dual Carriageway Expansion,Bomet,SPENCON SERVICES,2592000000,2024-03-29,2025-09-12,Awarded (Not Started)
+RD-2024-0332,Marsabit-Moyale Feeder Road,Kilifi,China Overseas Engineering,1468000000,2024-12-10,2025-05-16,Completed
+RD-2024-0335,Homa Bay-Rongo Bridge Construction,Kericho,Southern Engineering Co,3169000000,2024-02-28,2026-03-01,Awarded (Not Started)
+RD-2024-0339,Voi-Taveta Link Road,Turkana,KIRINYAGA ENGINEERING WORKS,722000000,2024-10-16,2027-02-22,Completed
+RD-2024-0342,Nyahururu-Nyeri Feeder Road,Bomet,Spencon Services,3941000000,2024-06-09,2025-11-22,Completed
+RD-2024-0343,Mai Mahiu-Narok Link Road,Kakamega,Spencon Services,2011000000,2024-02-12,2025-10-26,Awarded (Not Started)
+RD-2024-0351,Kericho-Sotik Junction Improvement,Homa Bay,Kensa Engineering,3907000000,2024-01-13,2025-04-15,Completed
+RD-2024-0352,Bomet-Sotik Bridge Construction,Siaya,Ostwal Investments,4025000000,2024-01-11,2025-02-26,Awarded (Not Started)
+RD-2024-0354,Kapenguria-Lodwar Junction Improvement,Kitui,Great Wall Engineering,3452000000,2024-02-23,2025-11-11,Completed
+RD-2024-0362,Thika-Kenol Bypass,Siaya,Ostwal Investments Ltd,1340000000,2024-12-07,2026-12-06,Awarded (Not Started)
+RD-2024-0368,Nyahururu-Nyeri Bypass,Vihiga,Ostwal Investments,1888000000,2024-05-25,2025-02-01,Ongoing
+RD-2024-0374,Kapenguria-Lodwar Bridge Construction,Murang'a,CABRA INTERNATIONAL,4268000000,2024-02-14,2026-03-19,Under Procurement
+RD-2024-0379,Athi River-Namanga Highway Upgrade,Narok,Mota-Engil Africa,4019000000,2024-02-20,2025-03-08,Completed
+RD-2024-0382,Voi-Taveta Bridge Construction,Busia,Sinohydro Corporation,2892000000,2024-11-21,2025-09-10,Ongoing
+RD-2024-0383,Bomet-Sotik Dual Carriageway Expansion,Makueni,China Overseas Engineering,1237000000,2024-11-24,2027-05-08,Stalled
+RD-2024-0384,Marsabit-Moyale Bridge Construction,Tharaka-Nithi,China Wu Yi Co Ltd,3888000000,2024-09-02,2025-03-09,Ongoing
+RD-2024-0385,Mombasa-Mariakani Feeder Road,Nyeri,Balgobind Enterprises,4245000000,2024-12-24,2025-10-01,Under Procurement
+RD-2024-0392,Chuka-Nkubu Highway Upgrade,Taita Taveta,Nyakinywa Construction Ltd,3920000000,2024-12-29,2027-04-23,Completed
+RD-2024-0394,Marsabit-Moyale Access Road,Kilifi,AMMOUN COMPANY,3308000000,2024-06-06,2026-07-11,Completed
+RD-2024-0396,Athi River-Namanga Bridge Construction,Isiolo,China Overseas Engineering,526000000,2024-11-14,2026-10-24,Under Procurement
+RD-2024-0398,Malaba-Kisumu Link Road,Murang'a,Kundan Singh Construction,1015000000,2024-12-17,2026-09-18,Stalled
+RD-2024-0401,Marsabit-Moyale Dual Carriageway Expansion,Mombasa,CHINA ROAD AND BRIDGE CORP,1856000000,2024-04-20,2026-08-23,Completed
+RD-2024-0402,Thika-Kenol Highway Upgrade,Embu,Mota-Engil Africa,531000000,2024-08-30,2026-02-18,Ongoing
+RD-2024-0403,Kitale-Suam Access Road,Tana River,Reynolds Construction,1401000000,2024-10-08,2026-01-22,Stalled
+RD-2024-0408,Kericho-Sotik Feeder Road,Kiambu,Sinohydro Corporation,1728000000,2024-11-14,2026-02-25,Ongoing
+RD-2024-0412,Marsabit-Moyale Link Road,Meru,Zakhem International,2656000000,2024-12-24,2025-07-24,Ongoing
+RD-2024-0416,Kapsabet-Chavakali Bridge Construction,Garissa,Sinohydro Corporation,2637000000,2024-08-01,2025-08-30,Ongoing
+RD-2024-0417,Malaba-Kisumu Bridge Construction,Marsabit,Kirinyaga Engineering Works,204000000,2024-06-29,2026-07-22,Completed
+RD-2024-0421,Nyahururu-Nyeri Junction Improvement,Busia,Balgobind Enterprises,1582000000,2024-12-03,2027-04-13,Ongoing
+RD-2024-0422,Wote-Machakos Highway Upgrade,Laikipia,Zakhem International,2935000000,2024-05-22,2026-06-29,Ongoing
+RD-2024-0426,Thika-Kenol Link Road,Homa Bay,Great Wall Engineering,1218000000,2024-04-04,2026-07-14,Awarded (Not Started)
+RD-2024-0427,Isebania-Migori Feeder Road,Nandi,Ammoun Company,2535000000,2024-03-13,2026-08-05,Ongoing
+RD-2024-0429,Kapenguria-Lodwar Feeder Road,Nyeri,Bhogal Contractors,3309000000,2024-07-04,2025-11-21,Stalled
+RD-2024-0432,Mai Mahiu-Narok Highway Upgrade,Turkana,Bhogal Contractors,140000000,2024-03-29,2026-02-17,Awarded (Not Started)
+RD-2024-0433,Homa Bay-Rongo Dual Carriageway Expansion,Kilifi,Ostwal Investments,1007000000,2024-04-03,2026-02-05,Under Procurement
+RD-2024-0436,Kilifi-Malindi Bridge Construction,Bungoma,China Wu Yi Co Ltd,3956000000,2024-03-30,2025-03-18,Completed
+RD-2024-0443,Kapsabet-Chavakali Junction Improvement,Tharaka-Nithi,REYNOLDS CONSTRUCTION,2646000000,2024-01-27,2024-08-04,Stalled
+RD-2024-0450,Garissa-Modogashe Feeder Road,Trans Nzoia,Sinohydro Corporation,,2024-11-12,2026-09-16,Ongoing
+RD-2024-0460,Kilifi-Malindi Junction Improvement,Taita Taveta,Bhogal Contractors,117000000,2024-02-17,2025-04-13,Ongoing
+RD-2024-0468,Mai Mahiu-Narok Junction Improvement,Machakos,Bhogal Contractors,1901000000,2024-04-26,2025-03-24,Under Procurement
+RD-2024-0470,Voi-Taveta Junction Improvement,Embu,Zakhem International Ltd,2038000000,2024-08-19,2025-05-18,Ongoing
+RD-2024-0472,Thika-Kenol Bridge Construction,Kajiado,Bhogal Contractors,2290000000,2024-11-30,2027-02-15,Completed
+RD-2024-0474,Eldoret-Webuye Feeder Road,Mandera,Cabra International,1010000000,2024-08-22,2026-06-22,Stalled
+RD-2024-0479,Eldoret-Webuye Access Road,Kajiado,Colas Kenya,2888000000,2024-09-04,2026-12-24,Awarded (Not Started)
+RD-2024-0485,Kericho-Sotik Link Road,Nandi,Ammoun Company,530000000,2024-05-30,2026-09-13,Ongoing
+RD-2024-0492,Homa Bay-Rongo Access Road,Laikipia,Spencon Services Ltd,3979000000,2024-11-22,2025-09-20,Completed
+RD-2024-0493,Thika-Kenol Bridge Construction,Isiolo,Ostwal Investments,3516000000,2024-07-27,2026-01-22,Ongoing
+RD-2024-0499,Nyahururu-Nyeri Bypass,Wajir,Kundan Singh Construction,2551000000,2024-09-29,2025-04-07,Awarded (Not Started)
+RD-2024-0500,Kapenguria-Lodwar Link Road,Turkana,Mota-Engil Africa Ltd,2352000000,2024-04-02,2025-09-20,Completed
+RD-2024-0504,Athi River-Namanga Feeder Road,Nyeri,Kundan Singh Construction,,2024-10-22,2026-01-05,Ongoing
+RD-2024-0505,Kitale-Suam Highway Upgrade,Taita Taveta,Balgobind Enterprises,3361000000,2024-11-24,2027-01-17,Under Procurement
+RD-2024-0521,Isebania-Migori Access Road,Siaya,Spencon Services,2431000000,2024-08-16,2025-07-26,Ongoing
+RD-2024-0524,Mombasa-Mariakani Highway Upgrade,Taita Taveta,China Road and Bridge Corp,996000000,2024-03-15,2026-02-05,Under Procurement
+RD-2024-0525,Mai Mahiu-Narok Link Road,Taita Taveta,Ammoun Company,2777000000,2024-04-11,2025-11-11,Awarded (Not Started)
+RD-2024-0529,Kilifi-Malindi Feeder Road,Machakos,Reynolds Construction,3675000000,2024-07-17,2025-12-03,Awarded (Not Started)
+RD-2024-0534,Malaba-Kisumu Bypass,Kisii,Balgobind Enterprises Ltd,3593000000,2024-05-14,2025-08-03,Ongoing
+RD-2024-0544,Kapsabet-Chavakali Bridge Construction,Isiolo,Colas Kenya Ltd,1819000000,2024-04-10,2024-10-11,Completed
+RD-2024-0554,Isebania-Migori Highway Upgrade,Meru,Kundan Singh Construction Ltd,2204000000,2024-11-10,2025-07-26,Completed
+RD-2024-0555,Chuka-Nkubu Bridge Construction,Bungoma,China Overseas Engineering,3035000000,2024-11-15,2027-04-03,Under Procurement
+RD-2024-0556,Isebania-Migori Bypass,Kwale,Great Wall Engineering,4021000000,2024-08-21,2025-07-15,Stalled
+RD-2024-0565,Nyahururu-Nyeri Highway Upgrade,Bomet,Nyakinywa Construction,933000000,2024-12-17,2025-08-05,Under Procurement
+RD-2024-0570,Athi River-Namanga Bypass,Isiolo,Balgobind Enterprises,383000000,2024-09-14,2026-12-29,Ongoing
+RD-2024-0583,Wote-Machakos Bridge Construction,Kilifi,Kundan Singh Construction,1436000000,2024-12-19,2025-07-12,Completed
+RD-2024-0587,Thika-Kenol Junction Improvement,Isiolo,REYNOLDS CONSTRUCTION,302000000,2024-12-31,2025-08-27,Ongoing
+RD-2024-0594,Kapenguria-Lodwar Dual Carriageway Expansion,Kisumu,Sinohydro Corporation,158000000,2024-10-09,2025-01-10,Completed
+RD-2024-0595,Wote-Machakos Link Road,Homa Bay,OSTWAL INVESTMENTS,3163000000,2024-05-16,2025-11-13,Completed
+RD-2024-0597,Marsabit-Moyale Feeder Road,Nakuru,Sinohydro Corporation,1686000000,2024-07-31,2026-08-03,Ongoing
+RD-2024-0606,Kitale-Suam Link Road,Tharaka-Nithi,Sinohydro Corporation,633000000,2024-04-29,2025-12-05,Under Procurement
+RD-2024-0608,Kilifi-Malindi Junction Improvement,Kiambu,Sinohydro Corporation,4320000000,2024-04-16,2026-08-17,Stalled
+RD-2024-0617,Chuka-Nkubu Dual Carriageway Expansion,Nyamira,Spencon Services,3364000000,2024-07-30,2026-09-15,Stalled
+RD-2024-0618,Mombasa-Mariakani Highway Upgrade,Elgeyo-Marakwet,Ostwal Investments,2165000000,2024-02-02,2024-10-25,Ongoing
+RD-2024-0626,Kilifi-Malindi Link Road,Siaya,Reynolds Construction,934000000,2024-10-14,2026-10-30,Ongoing
+RD-2024-0627,Kilifi-Malindi Feeder Road,Samburu,China Road and Bridge Corp,,2024-09-12,2026-08-29,Ongoing
+RD-2024-0631,Malaba-Kisumu Access Road,Busia,CHINA ROAD AND BRIDGE CORP,1551000000,2024-06-19,2026-03-03,Completed
+RD-2024-0642,Mombasa-Mariakani Highway Upgrade,Siaya,Ammoun Company,1516000000,2024-07-25,2026-12-26,Ongoing
+RD-2024-0648,Kilifi-Malindi Bridge Construction,Machakos,COLAS KENYA,3752000000,2024-07-25,2025-08-15,Ongoing
+RD-2025-0002,Mai Mahiu-Narok Bypass,Embu,Cabra International,1708000000,2025-01-06,2027-05-01,Stalled
+RD-2025-0011,Kapsabet-Chavakali Feeder Road,Siaya,Mota-Engil Africa,3143000000,2025-04-11,2026-03-22,Completed
+RD-2025-0013,Nyahururu-Nyeri Access Road,Isiolo,Great Wall Engineering,4497000000,2025-03-27,2027-08-30,Ongoing
+RD-2025-0016,Thika-Kenol Link Road,Nairobi,China Wu Yi Co Ltd,3378000000,2025-01-31,2026-07-12,Awarded (Not Started)
+RD-2025-0034,Kilifi-Malindi Bridge Construction,Mombasa,Great Wall Engineering,3601000000,2025-05-29,2027-07-11,Stalled
+RD-2025-0036,Wote-Machakos Access Road,Lamu,COLAS KENYA,1672000000,2025-01-11,2027-06-23,Completed
+RD-2025-0044,Thika-Kenol Junction Improvement,Kericho,China Road and Bridge Ltd,642000000,2025-05-19,2027-09-13,Ongoing
+RD-2025-0045,Kitale-Suam Feeder Road,Laikipia,Southern Engineering Co,2179000000,2025-04-20,2026-10-29,Ongoing
+RD-2025-0061,Homa Bay-Rongo Bypass,Kakamega,Spencon Services,409000000,2025-04-12,2026-04-06,Completed
+RD-2025-0066,Marsabit-Moyale Highway Upgrade,Tharaka-Nithi,Kundan Singh Construction,2343000000,2025-02-05,2026-12-27,Ongoing
+RD-2025-0078,Nyahururu-Nyeri Highway Upgrade,Narok,SPENCON SERVICES,4027000000,2025-07-10,2026-11-04,Stalled
+RD-2025-0092,Kitale-Suam Access Road,Homa Bay,Ostwal Investments,3544000000,2025-01-16,2025-05-09,Under Procurement
+RD-2025-0101,Kapsabet-Chavakali Feeder Road,Kajiado,OSTWAL INVESTMENTS,2956000000,2025-01-29,2027-05-19,Awarded (Not Started)
+RD-2025-0102,Garissa-Modogashe Highway Upgrade,Kisumu,Kensa Engineering,,2025-03-26,2027-04-22,Awarded (Not Started)
+RD-2025-0112,Kericho-Sotik Dual Carriageway Expansion,Tharaka-Nithi,Southern Engineering Co,2388000000,2025-05-13,2026-05-12,Completed
+RD-2025-0113,Kitale-Suam Link Road,Bomet,ZAKHEM INTERNATIONAL,767000000,2025-04-12,2026-03-22,Ongoing
+RD-2025-0115,Thika-Kenol Bridge Construction,Mandera,Kensa Engineering Ltd,1216000000,2025-04-04,2027-01-24,Completed
+RD-2025-0119,Voi-Taveta Bypass,Kiambu,Ostwal Investments,2853000000,2025-07-25,2027-11-10,Ongoing
+RD-2025-0122,Malaba-Kisumu Dual Carriageway Expansion,Kiambu,Kensa Engineering,,2025-06-21,2027-06-02,Ongoing
+RD-2025-0135,Marsabit-Moyale Highway Upgrade,Kiambu,Ammoun Company,2695000000,2025-02-12,2026-07-30,Under Procurement
+RD-2025-0139,Garissa-Modogashe Access Road,Nyeri,Nyakinywa Construction,3769000000,2025-04-15,2027-04-28,Ongoing
+RD-2025-0147,Garissa-Modogashe Junction Improvement,Nyamira,Southern Engineering Co,2180000000,2025-03-11,2027-01-10,Ongoing
+RD-2025-0152,Wote-Machakos Bridge Construction,Isiolo,Reynolds Construction,195000000,2025-02-17,2026-07-27,Awarded (Not Started)
+RD-2025-0159,Kilifi-Malindi Access Road,Kilifi,Reynolds Construction,1189000000,2025-04-18,2027-08-02,Under Procurement
+RD-2025-0163,Mombasa-Mariakani Dual Carriageway Expansion,Kilifi,China Road and Bridge Ltd,1859000000,2025-03-25,2025-11-17,Ongoing
+RD-2025-0168,Kapenguria-Lodwar Feeder Road,Kirinyaga,Great Wall Engineering,1041000000,2025-03-10,2027-01-09,Under Procurement
+RD-2025-0171,Chuka-Nkubu Junction Improvement,Machakos,Spencon Services,4082000000,2025-01-21,2027-05-08,Stalled
+RD-2025-0184,Nyahururu-Nyeri Access Road,Elgeyo-Marakwet,Zakhem International,4046000000,2025-05-22,2026-02-04,Completed
+RD-2025-0201,Bomet-Sotik Feeder Road,Nandi,Bhogal Contractors,918000000,2025-02-16,2027-06-15,Awarded (Not Started)
+RD-2025-0213,Isebania-Migori Link Road,Nandi,KIRINYAGA ENGINEERING WORKS,,2025-03-22,2026-01-22,Completed
+RD-2025-0218,Homa Bay-Rongo Link Road,Trans Nzoia,Zakhem International,3663000000,2025-03-02,2026-04-03,Ongoing
+RD-2025-0220,Nyahururu-Nyeri Link Road,Mandera,Sinohydro Corporation,2824000000,2025-07-11,2027-03-22,Ongoing
+RD-2025-0225,Mai Mahiu-Narok Dual Carriageway Expansion,Busia,Ostwal Investments,4121000000,2025-05-02,2026-05-17,Stalled
+RD-2025-0226,Kericho-Sotik Bypass,Kericho,Ammoun Company,91000000,2025-04-04,2027-08-05,Completed
+RD-2025-0229,Mai Mahiu-Narok Link Road,Nyandarua,Great Wall Engineering,1195000000,2025-05-17,2027-07-04,Ongoing
+RD-2025-0234,Wote-Machakos Bypass,Kilifi,Reynolds Construction Ltd,3628000000,2025-01-23,2026-08-30,Completed
+RD-2025-0243,Thika-Kenol Highway Upgrade,Kakamega,China Overseas Engineering,2686000000,2025-07-15,2027-09-29,Ongoing
+RD-2025-0265,Kilifi-Malindi Feeder Road,Kisumu,Mota-Engil Africa,4317000000,2025-04-17,2026-06-17,Awarded (Not Started)
+RD-2025-0273,Thika-Kenol Bridge Construction,Lamu,ZAKHEM INTERNATIONAL,3814000000,2025-01-30,2027-01-12,Completed
+RD-2025-0287,Kericho-Sotik Dual Carriageway Expansion,Homa Bay,Kirinyaga Engineering Works,878000000,2025-04-05,2027-08-07,Ongoing
+RD-2025-0297,Wote-Machakos Feeder Road,Busia,Ostwal Investments,1689000000,2025-05-09,2026-05-22,Ongoing
+RD-2025-0301,Mai Mahiu-Narok Bypass,Busia,Ammoun Company,3204000000,2025-06-19,2026-04-11,Completed
+RD-2025-0323,Marsabit-Moyale Bypass,Busia,Cabra International,4203000000,2025-03-21,2026-01-15,Ongoing
+RD-2025-0325,Athi River-Namanga Highway Upgrade,Garissa,Spencon Services,,2025-04-18,2026-06-10,Under Procurement
+RD-2025-0331,Kapsabet-Chavakali Bridge Construction,Kisumu,China Overseas Engineering Ltd,550000000,2025-05-04,2026-04-28,Stalled
+RD-2025-0333,Garissa-Modogashe Link Road,Mombasa,Cabra International,2410000000,2025-01-27,2027-02-18,Under Procurement
+RD-2025-0338,Nyahururu-Nyeri Highway Upgrade,Kakamega,Great Wall Engineering,4167000000,2025-02-18,2026-03-09,Ongoing
+RD-2025-0344,Chuka-Nkubu Highway Upgrade,Uasin Gishu,Nyakinywa Construction,4454000000,2025-01-15,2026-02-06,Awarded (Not Started)
+RD-2025-0358,Garissa-Modogashe Highway Upgrade,Kiambu,China Wu Yi Co Ltd,2263000000,2025-05-08,2026-12-10,Ongoing
+RD-2025-0359,Mai Mahiu-Narok Access Road,Wajir,SOUTHERN ENGINEERING CO,2104000000,2025-02-19,2025-09-21,Ongoing
+RD-2025-0363,Isebania-Migori Bypass,Nandi,Balgobind Enterprises,3014000000,2025-01-23,2025-12-06,Ongoing
+RD-2025-0365,Wote-Machakos Bypass,West Pokot,Nyakinywa Construction,3185000000,2025-02-11,2026-02-15,Awarded (Not Started)
+RD-2025-0366,Mombasa-Mariakani Feeder Road,Kericho,Nyakinywa Construction,4155000000,2025-04-18,2027-02-05,Ongoing
+RD-2025-0372,Eldoret-Webuye Junction Improvement,Turkana,Ostwal Investments,3457000000,2025-04-15,2027-07-22,Completed
+RD-2025-0391,Kitale-Suam Highway Upgrade,Tharaka-Nithi,Reynolds Construction,294000000,2025-04-11,2027-06-26,Stalled
+RD-2025-0413,Kilifi-Malindi Highway Upgrade,Kajiado,Kirinyaga Engineering Works,3145000000,2025-05-27,2025-12-31,Awarded (Not Started)
+RD-2025-0414,Eldoret-Webuye Dual Carriageway Expansion,Tharaka-Nithi,Nyakinywa Construction,2622000000,2025-08-05,2026-10-05,Ongoing
+RD-2025-0431,Garissa-Modogashe Highway Upgrade,Mandera,Bhogal Contractors Ltd,3815000000,2025-04-06,2027-11-13,Stalled
+RD-2025-0438,Nyahururu-Nyeri Feeder Road,Meru,KENSA ENGINEERING,1561000000,2025-06-26,2027-06-16,Awarded (Not Started)
+RD-2025-0439,Athi River-Namanga Access Road,Nakuru,China Road and Bridge Corp,3685000000,2025-01-26,2027-05-08,Ongoing
+RD-2025-0441,Kapsabet-Chavakali Access Road,Marsabit,SINOHYDRO CORPORATION,2445000000,2025-06-21,2027-03-22,Completed
+RD-2025-0442,Nyahururu-Nyeri Junction Improvement,Kisumu,Spencon Services,2267000000,2025-07-02,2026-08-04,Ongoing
+RD-2025-0446,Wote-Machakos Link Road,Nyeri,Southern Engineering Co,2344000000,2025-04-25,2027-01-02,Stalled
+RD-2025-0471,Wote-Machakos Highway Upgrade,Baringo,BALGOBIND ENTERPRISES,1595000000,2025-06-06,2026-12-17,Stalled
+RD-2025-0476,Bomet-Sotik Bridge Construction,Migori,Southern Engineering Co,3095000000,2025-06-27,2027-11-13,Under Procurement
+RD-2025-0484,Homa Bay-Rongo Dual Carriageway Expansion,Marsabit,Ammoun Company,1000000000,2025-02-07,2026-12-09,Under Procurement
+RD-2025-0488,Wote-Machakos Bridge Construction,Uasin Gishu,REYNOLDS CONSTRUCTION,3552000000,2025-02-01,2026-09-28,Ongoing
+RD-2025-0498,Athi River-Namanga Link Road,Taita Taveta,KUNDAN SINGH CONSTRUCTION,234000000,2025-05-06,2027-03-12,Awarded (Not Started)
+RD-2025-0511,Voi-Taveta Bridge Construction,Elgeyo-Marakwet,Balgobind Enterprises,4073000000,2025-04-14,2026-01-31,Completed
+RD-2025-0512,Homa Bay-Rongo Access Road,Nakuru,CHINA OVERSEAS ENGINEERING,2969000000,2025-04-19,2026-03-08,Ongoing
+RD-2025-0517,Thika-Kenol Bridge Construction,Makueni,Colas Kenya,3373000000,2025-06-07,2026-08-21,Stalled
+RD-2025-0527,Kericho-Sotik Bridge Construction,Laikipia,Sinohydro Corporation,365000000,2025-02-23,2027-07-01,Awarded (Not Started)
+RD-2025-0531,Kapenguria-Lodwar Bypass,Baringo,Reynolds Construction,3712000000,2025-06-09,2027-09-23,Ongoing
+RD-2025-0536,Isebania-Migori Access Road,Nyeri,Reynolds Construction Ltd,3426000000,2025-06-11,2026-06-05,Ongoing
+RD-2025-0551,Kilifi-Malindi Dual Carriageway Expansion,Taita Taveta,Bhogal Contractors,728000000,2025-06-30,2027-04-30,Ongoing
+RD-2025-0562,Mombasa-Mariakani Access Road,Nyeri,Ostwal Investments,3949000000,2025-06-26,2026-06-06,Stalled
+RD-2025-0569,Athi River-Namanga Access Road,Elgeyo-Marakwet,Southern Engineering Co,4308000000,2025-06-16,2027-11-11,Completed
+RD-2025-0571,Athi River-Namanga Access Road,Nyeri,Cabra International,2573000000,2025-01-17,2026-02-06,Under Procurement
+RD-2025-0572,Isebania-Migori Dual Carriageway Expansion,Nandi,Ostwal Investments,3393000000,2025-08-05,2026-05-25,Awarded (Not Started)
+RD-2025-0590,Wote-Machakos Link Road,Uasin Gishu,Nyakinywa Construction,1746000000,2025-05-23,2026-04-13,Completed
+RD-2025-0596,Nyahururu-Nyeri Junction Improvement,Kwale,Great Wall Engineering Ltd,817000000,2025-07-30,2027-10-16,Stalled
+RD-2025-0598,Marsabit-Moyale Highway Upgrade,Migori,Kundan Singh Construction,1130000000,2025-08-03,2025-11-09,Ongoing
+RD-2025-0601,Eldoret-Webuye Link Road,Tharaka-Nithi,COLAS KENYA,287000000,2025-02-19,2026-04-06,Under Procurement
+RD-2025-0602,Kitale-Suam Bypass,Siaya,Kensa Engineering Ltd,3618000000,2025-07-13,2026-02-02,Completed
+RD-2025-0603,Mai Mahiu-Narok Link Road,Kajiado,CHINA OVERSEAS ENGINEERING,3672000000,2025-04-14,2026-01-16,Stalled
+RD-2025-0615,Thika-Kenol Feeder Road,Machakos,Cabra International,2489000000,2025-06-06,2026-05-04,Ongoing
+RD-2025-0621,Nyahururu-Nyeri Feeder Road,Migori,China Overseas Engineering,,2025-03-21,2027-03-27,Under Procurement
+RD-2025-0622,Homa Bay-Rongo Bypass,Trans Nzoia,Kensa Engineering,4279000000,2025-04-08,2026-06-03,Awarded (Not Started)
+RD-2025-0630,Chuka-Nkubu Dual Carriageway Expansion,Kakamega,Southern Engineering Co,400000000,2025-02-18,2025-11-18,Ongoing
